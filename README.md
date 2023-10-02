@@ -34,4 +34,4 @@ The command to launch the analysis from the `doc/data/` directory:
 producing the following files, `results/pLDDT_JQ679013_RPS17_ORF1_0.svg`:
 ![IDR plot](doc/_static/pLDDT_JQ679013_RPS17_ORF1_0.svg)
 
-and the CSV file, `results/pLDDT_JQ679013_RPS17_ORF1_0.csv`.
+and the <a href="https://github.com/njeanne/idr_alphafold/blob/main/doc/_static/pLDDT_JQ679013_RPS17_ORF1_0.csv">CSV result file</a>.
