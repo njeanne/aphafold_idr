@@ -5,21 +5,23 @@ Created on 18 Jan. 2022
 """
 
 import argparse
-import csv
 import logging
 import os
 import statistics
 import sys
 
-import altair as alt
-from altair_saver import save
 from Bio.PDB.PDBParser import PDBParser
+from dna_features_viewer import GraphicFeature, GraphicRecord
 import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib import rcParams
+from matplotlib.patches import Patch
+import seaborn as sns
 
 __author__ = "Nicolas JEANNE"
 __copyright__ = "GNU General Public License"
 __email__ = "jeanne.n@chu-toulouse.fr"
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 
 
 def create_log(path, level):
@@ -65,7 +67,7 @@ def restricted_int(int_to_inspect):
     """
     x = int(int_to_inspect)
     if x < 0 or x > 100:
-        raise argparse.ArgumentTypeError("{} not in range [0, 100]".format(x))
+        raise argparse.ArgumentTypeError(f"{x} not in range [0, 100]")
     return x
 
 
@@ -73,7 +75,7 @@ def extract_plddt(input_path):
     """
     Extract the pLDDT (Beta factor column) of the Alphafold PDB file by amino acid.
 
-    :param input_path: the pdb file path
+    :param input_path: the pdb file's path
     :type input_path: str
     :return: the residues and pLDDT dataframe.
     :rtype: Pandas.DataFrame
@@ -93,20 +95,20 @@ def extract_plddt(input_path):
 
 def get_residue_order_state(plddt_data, threshold, window):
     """
-    On window compute the mean of pLDDT values and determine if the region is ordered or disordered from the center of
-    the window to each side of the window.
+    On a window compute the mediaan of pLDDT values and determine if the region is ordered or disordered from the
+    center of the window to each side of the window.
 
     :param plddt_data: the dataframe of the residues pLDDT values.
     :type plddt_data: Pandas.DataFrame
     :param threshold: the threshold for a disordered region, under or equal.
     :type threshold: float
-    :param window: the window size.
+    :param window: the window size to compute the median.
     :type window: int
-    :return: the updated dataframe of the residues mean pLDDT on the window which center center is the residue position
-    and if the residue normalized on the window is ordered or not.
+    :return: the updated dataframe of the residues mean pLDDT on the window which center is the residue position and if
+    the residue normalized on the window is ordered or not.
     :rtype: Pandas.DataFrame
     """
-    plddt_means = []
+    plddt_medians = []
     plddt_list = list(plddt["pLDDT"])
     if window % 2 == 0:
         idx_start = int(window / 2) - 1
@@ -117,31 +119,28 @@ def get_residue_order_state(plddt_data, threshold, window):
         left_window = int(window / 2)
         right_window = int(window / 2)
 
-    logging.info("window size for disordered regions search: {}".format(window))
-    logging.info("threshold for disordered regions <= {}%".format(threshold))
-    logging.debug("index start for disordered regions search: {}".format(idx_start))
-    logging.debug("window left size for disordered regions search: {}".format(left_window))
-    logging.debug("window right size for disordered regions search: {}".format(right_window))
+    logging.info(f"window size for disordered regions search: {window}")
+    logging.info(f"threshold for disordered regions <= {threshold}%")
+    logging.debug(f"index start for disordered regions search: {idx_start}")
+    logging.debug(f"window left size for disordered regions search: {left_window}")
+    logging.debug(f"window right size for disordered regions search: {right_window}")
 
     for idx in range(idx_start):
-        mean_plddt = statistics.mean(plddt_list[0:window])
-        plddt_means.append(mean_plddt)
-        logging.debug(
-            "pLDDT mean value computed on the first {} residues (window size), residue {}: {}".format(window, idx + 1,
-                                                                                                      mean_plddt))
+        median_plddt = statistics.median(plddt_list[0:window])
+        plddt_medians.append(median_plddt)
+        logging.debug(f"pLDDT mean value computed on the first {window} residues (window size), residue {idx + 1}: "
+                      f"{median_plddt}")
     for idx in range(idx_start, len(plddt_list) - right_window):
-        mean_plddt = statistics.mean(plddt_list[(idx - left_window):(idx + right_window)])
-        plddt_means.append(mean_plddt)
-        logging.debug("pLDDT mean value computed on the window size ({}), residue {}: {}".format(window, idx + 1,
-                                                                                                 mean_plddt))
+        median_plddt = statistics.median(plddt_list[(idx - left_window):(idx + right_window)])
+        plddt_medians.append(median_plddt)
+        logging.debug(f"pLDDT mean value computed on the window size ({window}), residue {idx + 1}: {median_plddt}")
     for idx in range(len(plddt_list) - right_window, len(plddt_list)):
-        mean_plddt = statistics.mean(plddt_list[len(plddt_list)-window:len(plddt_list)])
-        plddt_means.append(mean_plddt)
-        logging.debug(
-            "pLDDT mean value computed on the last {} residues (window size), residue {}: {}".format(window, idx + 1,
-                                                                                                     mean_plddt))
-    plddt_data["pLDDT window mean"] = plddt_means
-    plddt_data["order state"] = ["ordered" if value >= threshold else "disordered" for value in plddt_means]
+        median_plddt = statistics.median(plddt_list[len(plddt_list)-window:len(plddt_list)])
+        plddt_medians.append(median_plddt)
+        logging.debug(f"pLDDT mean value computed on the last {window} residues (window size), residue {idx + 1}: "
+                      f"{median_plddt}")
+    plddt_data["pLDDT window median (%)"] = plddt_medians
+    plddt_data["order state"] = ["ordered" if value >= threshold else "disordered" for value in plddt_medians]
 
     return plddt_data
 
@@ -152,7 +151,7 @@ def get_domains(plddt_data, domains):
 
     :param plddt_data: the dataframe of the pLDDT.
     :type plddt_data: Pandas.DataFrame
-    :param domains: the dataframe of the domains of the protein.
+    :param domains: the protein's domains' dataframe.
     :type domains: Pandas.DataFrame
     :return: the updated dataframe with the domain which each residue belongs to.
     :rtype: Pandas.DataFrame
@@ -182,8 +181,10 @@ def get_areas_order_state(plddt_data):
     :rtype: Pandas.DataFrame
     """
     order_state_areas = {"state": [], "start": [], "end": [], "color": []}
-    state_color = {"ordered": "#1500ff", "disordered": "#ff0000"}
+    state_color = {"ordered": "#1500ff4e", "disordered": "#ff00004d"}
     residue_order_state = None
+    previous_position = None
+    row = None
     for _, row in plddt_data.iterrows():
         if not residue_order_state == row["order state"]:
             if residue_order_state is not None:
@@ -199,7 +200,7 @@ def get_areas_order_state(plddt_data):
     return pd.DataFrame(order_state_areas)
 
 
-def draw_chart_plddt(plddt_data, threshold, out_dir, prot_id, out_format, domains=None):
+def draw_chart_plddt(plddt_data, threshold, out_dir, prot_id, out_format, window, domains=None):
     """
     Draw the chart for the pLDDT values.
 
@@ -213,56 +214,61 @@ def draw_chart_plddt(plddt_data, threshold, out_dir, prot_id, out_format, domain
     :type prot_id: str
     :param out_format: the format of the output chart file.
     :type out_format: str
-    :param domains: the dataframe of the domains of the protein.
+    :param window: the window size to compute the median.
+    :type window: int
+    :param domains: the protein's domains' dataframe.
     :type domains: Pandas.DataFrame
     :return: the chart directory output path.
     :rtype: str
     """
-    out_path = os.path.join(out_dir, "pLDDT_{}.{}".format(prot_id, out_format))
+    out_path = os.path.join(out_dir, f"pLDDT_{prot_id}.{out_format}")
 
-    plddt_chart = alt.Chart(data=plddt_data,
-                            title="{}: pLDDT by residue position".format(prot_id)).mark_line(color="#000000",
-                                                                                             strokeWidth=0.4).encode(
-        x=alt.X("position", title="amino-acids positions"),
-        y=alt.Y("pLDDT", title="pLDDT"),
-    )
+    # create the plddt plot and the domains' map
+    fig, axs = plt.subplots(2, 1, layout="constrained", height_ratios=[10, 1])
 
+    # pLDDT line plot
+    plddt_chart = sns.lineplot(data=plddt_data, x="position", y="pLDDT window median (%)", color="black", ax=axs[0])
+
+    # add the order state background
     areas_order_state = get_areas_order_state(plddt_data)
-    disorder_chart = alt.Chart(areas_order_state).mark_rect(opacity=0.3).encode(
-        x=alt.X("start"),
-        x2=alt.X2("end"),
-        color=alt.Color("state",
-                        scale=alt.Scale(domain=areas_order_state["state"].tolist(),
-                                        range=areas_order_state["color"].tolist()))
-    )
+    for i, row in areas_order_state.iterrows():
+        plddt_chart.axvspan(xmin=row["start"], xmax=row["end"], color=row["color"])
+    legend_elements = [Patch(facecolor="#1500ff4e", label="Ordered"), Patch(facecolor="#ff00004d", label="Disordered")]
+    # add the threshold horizontal line
+    plddt_chart.axhline(y=threshold, color="red")
+    # set the legends, axis and titles
+    axs[0].legend(handles=legend_elements, loc="lower left")
+    axs[0].set_xlabel("amino-acids positions", fontweight="bold")
+    axs[0].set_ylim(1, 100)
+    axs[0].set_ylabel(f"median of the pLDDT (%)", fontweight="bold")
+    axs[0].set_title(f"{prot_id}: median of the pLDDT on a {window} residues window", fontweight="bold")
 
-    # add the order/disorder threshold
-    threshold_chart = alt.Chart(pd.DataFrame([{"threshold": threshold}])).mark_rule(color="red").encode(
-        y=alt.Y("threshold", title="pLDDT")
-    )
-
-    plddt_chart = disorder_chart + threshold_chart + plddt_chart
-
+    # Domains' plot
     if domains is not None:
-        domain_chart = alt.Chart(domains).mark_rect().encode(
-            x=alt.X("start", title="domains"),
-            x2=alt.X2("end"),
-            color=alt.Color("domain",
-                            scale=alt.Scale(domain=df_domains["domain"].tolist(), range=df_domains["color"].tolist()))
-        )
-        plddt_chart = alt.vconcat(plddt_chart, domain_chart).resolve_scale(color="independent")
+        features = []
+        row = None
+        for _, row in domains.iterrows():
+            features.append(GraphicFeature(start=row["start"], end=row["end"], strand=+1, color=row["color"],
+                                           label=row["domain"]))
+        # set the last residue for the X axes 0 superior limit matches with the domains' representation
+        axs[0].set_xlim(plddt_data.iloc[0]["position"], row["end"] + 1)
 
-    save(plddt_chart, out_path)
+        record = GraphicRecord(sequence_length=row["end"] + 1, features=features, plots_indexing="genbank")
+        ax_domains, _ = record.plot(ax=axs[1])
+
+    plot = plddt_chart.get_figure()
+    plot.savefig(out_path)
+
     return out_path
 
 
 if __name__ == "__main__":
-    descr = """
-    {} v. {}
+    descr = f"""
+    {os.path.basename(__file__)} v. {__version__}
 
-    Created by {}.
-    Contact: {}
-    {}
+    Created by {__author__}.
+    Contact: {__email__}
+    {__copyright__}
 
     Distributed on an "AS IS" basis without warranties or conditions of any kind, either express or
     implied.
@@ -277,7 +283,7 @@ if __name__ == "__main__":
     - start:    the domain AA start (1-index)
     - end:      the domain AA end (1-index)
     - color:    the color used to display the domain (hexadecimal format)
-    """.format(os.path.basename(__file__), __version__, __author__, __email__, __copyright__)
+    """
     parser = argparse.ArgumentParser(description=descr, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("-o", "--out", required=True, type=str, help="path to the output directory.")
     parser.add_argument("-f", "--format", required=False, type=str, default="svg",
@@ -307,11 +313,15 @@ if __name__ == "__main__":
     if args.log:
         log_path = args.log
     else:
-        log_path = os.path.join(args.out, "{}.log".format(os.path.splitext(os.path.basename(__file__))[0]))
+        log_path = os.path.join(args.out, f"{os.path.splitext(os.path.basename(__file__))[0]}.log")
     create_log(log_path, args.log_level)
 
-    logging.info("version: {}".format(__version__))
-    logging.info("CMD: {}".format(" ".join(sys.argv)))
+    logging.info(f"version: {__version__}")
+    logging.info(f"CMD: {' '.join(sys.argv)}")
+
+    # set the seaborn plots theme and size
+    sns.set_theme()
+    rcParams["figure.figsize"] = 15, 12
 
     alphafold_prediction_id = os.path.splitext(os.path.basename(args.input))[0]
     plddt = extract_plddt(args.input)
@@ -320,11 +330,13 @@ if __name__ == "__main__":
     if args.domains:
         df_domains = pd.read_csv(args.domains, sep=",", header=0)
         plddt = get_domains(plddt, df_domains)
-        path_chart = draw_chart_plddt(plddt, args.threshold, args.out, alphafold_prediction_id, args.format, df_domains)
+        path_chart = draw_chart_plddt(plddt, args.threshold, args.out, alphafold_prediction_id, args.format,
+                                      args.window_size, df_domains)
     else:
-        path_chart = draw_chart_plddt(plddt, args.threshold, args.out, alphafold_prediction_id, args.format)
+        path_chart = draw_chart_plddt(plddt, args.threshold, args.out, alphafold_prediction_id, args.format,
+                                      args.window_size)
 
-    logging.info("pLDDT chart for {} created: {}".format(alphafold_prediction_id, os.path.abspath(path_chart)))
-    path_data = os.path.join(args.out, "pLDDT_{}.csv".format(alphafold_prediction_id))
+    logging.info(f"pLDDT chart for {alphafold_prediction_id} created: {os.path.abspath(path_chart)}")
+    path_data = os.path.join(args.out, f"pLDDT_{alphafold_prediction_id}.csv")
     plddt.to_csv(path_data, index=False)
-    logging.info("pLDDT data for {} created: {}".format(alphafold_prediction_id, os.path.abspath(path_data)))
+    logging.info(f"pLDDT data for {alphafold_prediction_id} created: {os.path.abspath(path_data)}")
