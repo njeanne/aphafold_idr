@@ -1,0 +1,1766 @@
+position,pLDDT,amino-acid,pLDDT window median (%),order state,domains
+1,32.5,MET,47.4,disordered,
+2,29.95,GLU,47.4,disordered,
+3,40.26,ALA,47.4,disordered,
+4,44.07,HIS,47.4,disordered,
+5,46.27,GLN,47.4,disordered,
+6,47.4,PHE,46.835,disordered,
+7,52.67,ILE,50.035,ordered,
+8,53.88,LYS,53.275000000000006,ordered,
+9,55.89,ALA,54.885000000000005,ordered,
+10,62.61,PRO,59.25,ordered,
+11,70.75,GLY,64.625,ordered,
+12,66.64,ILE,66.965,ordered,
+13,67.29,THR,69.02000000000001,ordered,
+14,73.68,THR,71.815,ordered,
+15,72.88,ALA,73.09,ordered,
+16,73.3,ILE,73.36,ordered,
+17,76.7,GLU,73.55000000000001,ordered,
+18,77.1,GLN,74.495,ordered,
+19,73.42,ALA,74.495,ordered,
+20,75.31,ALA,75.775,ordered,
+21,79.11,LEU,76.47,ordered,
+22,77.82,ALA,76.9,ordered,
+23,73.45,ALA,76.66999999999999,ordered,
+24,76.24,ALA,77.00999999999999,ordered,
+25,79.81,ASN,77.8,ordered,
+26,77.78,SER,78.0,ordered,
+27,75.59,ALA,78.0,ordered,
+28,80.19,LEU,78.89500000000001,ordered,
+29,79.61,ALA,79.71000000000001,ordered,
+30,78.18,ASN,80.0,ordered,
+31,84.22,ALA,82.205,ordered,
+32,85.33,VAL,84.775,ordered,
+33,88.15,VAL,86.74000000000001,ordered,
+34,90.68,VAL,88.135,ordered,
+35,89.69,ARG,88.135,ordered,
+36,89.25,PRO,88.135,ordered,
+37,88.41,PHE,88.135,ordered,
+38,88.12,LEU,88.165,ordered,
+39,86.99,SER,88.295,ordered,
+40,85.4,ARG,88.15,ordered,
+41,82.67,LEU,87.555,ordered,
+42,88.18,GLN,87.555,ordered,
+43,88.41,THR,86.60499999999999,ordered,
+44,84.61,GLU,85.86500000000001,ordered,
+45,85.51,ILE,85.45500000000001,ordered,
+46,88.13,LEU,85.33500000000001,ordered,
+47,86.22,ILE,85.33500000000001,ordered,
+48,80.46,ASN,84.88499999999999,ordered,
+49,82.38,LEU,83.495,ordered,
+50,85.16,MET,83.07499999999999,ordered,
+51,73.53,GLN,83.07499999999999,ordered,
+52,70.21,PRO,83.07499999999999,ordered,
+53,80.06,ARG,83.07499999999999,ordered,
+54,83.77,GLN,84.465,ordered,
+55,88.74,LEU,86.34,ordered,
+56,88.2,VAL,87.86,ordered,
+57,90.19,PHE,87.86,ordered,
+58,90.14,ARG,87.86,ordered,
+59,87.52,PRO,87.86,ordered,
+60,88.87,GLU,87.86,ordered,Methyltransferase
+61,83.41,VAL,85.465,ordered,Methyltransferase
+62,82.02,LEU,85.465,ordered,Methyltransferase
+63,80.1,TRP,85.465,ordered,Methyltransferase
+64,81.0,ASN,85.43,ordered,Methyltransferase
+65,82.49,HIS,85.34,ordered,Methyltransferase
+66,87.53,PRO,85.34,ordered,Methyltransferase
+67,88.53,ILE,87.36,ordered,Methyltransferase
+68,87.45,GLN,87.49000000000001,ordered,Methyltransferase
+69,87.27,ARG,87.77000000000001,ordered,Methyltransferase
+70,89.59,VAL,88.215,ordered,Methyltransferase
+71,89.99,ILE,88.475,ordered,Methyltransferase
+72,89.01,HIS,88.77000000000001,ordered,Methyltransferase
+73,88.01,ASN,88.715,ordered,Methyltransferase
+74,88.42,GLU,89.17,ordered,Methyltransferase
+75,90.88,LEU,89.46000000000001,ordered,Methyltransferase
+76,89.33,GLU,89.535,ordered,Methyltransferase
+77,87.81,GLN,89.17,ordered,Methyltransferase
+78,90.0,TYR,89.535,ordered,Methyltransferase
+79,91.57,CYS,89.535,ordered,Methyltransferase
+80,89.74,ARG,89.535,ordered,Methyltransferase
+81,88.0,ALA,89.3,ordered,Methyltransferase
+82,89.96,ARG,89.505,ordered,Methyltransferase
+83,87.77,ALA,89.85,ordered,Methyltransferase
+84,85.04,GLY,89.85,ordered,Methyltransferase
+85,89.27,ARG,89.85,ordered,Methyltransferase
+86,92.86,CYS,89.615,ordered,Methyltransferase
+87,94.18,LEU,89.615,ordered,Methyltransferase
+88,94.31,GLU,88.775,ordered,Methyltransferase
+89,93.8,VAL,88.775,ordered,Methyltransferase
+90,88.28,GLY,88.775,ordered,Methyltransferase
+91,87.9,ALA,88.09,ordered,Methyltransferase
+92,86.51,HIS,88.09,ordered,Methyltransferase
+93,86.86,PRO,88.09,ordered,Methyltransferase
+94,83.84,ARG,87.38,ordered,Methyltransferase
+95,84.52,SER,86.96000000000001,ordered,Methyltransferase
+96,89.25,ILE,86.685,ordered,Methyltransferase
+97,88.87,ASN,86.20500000000001,ordered,Methyltransferase
+98,84.98,ASP,86.38,ordered,Methyltransferase
+99,87.06,ASN,86.48,ordered,Methyltransferase
+100,83.28,PRO,87.965,ordered,Methyltransferase
+101,85.9,ASN,89.06,ordered,Methyltransferase
+102,90.69,VAL,89.78,ordered,Methyltransferase
+103,91.75,LEU,91.0,ordered,Methyltransferase
+104,93.8,HIS,91.0,ordered,Methyltransferase
+105,93.4,ARG,91.0,ordered,Methyltransferase
+106,92.82,CYS,91.0,ordered,Methyltransferase
+107,91.31,PHE,91.0,ordered,Methyltransferase
+108,88.36,LEU,89.83500000000001,ordered,Methyltransferase
+109,86.88,ARG,87.62,ordered,Methyltransferase
+110,84.42,PRO,85.65,ordered,Methyltransferase
+111,82.72,VAL,84.86500000000001,ordered,Methyltransferase
+112,77.65,GLY,83.92500000000001,ordered,Methyltransferase
+113,77.33,ARG,83.255,ordered,Methyltransferase
+114,80.3,ASP,83.255,ordered,Methyltransferase
+115,85.31,VAL,83.255,ordered,Methyltransferase
+116,83.43,GLN,83.09,ordered,Methyltransferase
+117,83.08,ARG,83.265,ordered,Methyltransferase
+118,89.64,TRP,84.265,ordered,Methyltransferase
+119,87.47,TYR,85.205,ordered,Methyltransferase
+120,83.1,SER,85.77000000000001,ordered,Methyltransferase
+121,85.1,ALA,85.89500000000001,ordered,Methyltransferase
+122,86.23,PRO,85.89500000000001,ordered,Methyltransferase
+123,89.53,THR,86.725,ordered,Methyltransferase
+124,87.22,ARG,86.725,ordered,Methyltransferase
+125,85.56,GLY,86.725,ordered,Methyltransferase
+126,85.34,PRO,88.245,ordered,Methyltransferase
+127,89.77,ALA,89.4,ordered,Methyltransferase
+128,89.72,ALA,89.4,ordered,Methyltransferase
+129,89.27,ASN,89.495,ordered,Methyltransferase
+130,90.84,CYS,89.495,ordered,Methyltransferase
+131,90.91,ARG,89.565,ordered,Methyltransferase
+132,88.99,ARG,89.565,ordered,Methyltransferase
+133,90.68,SER,89.34,ordered,Methyltransferase
+134,88.83,ALA,89.13,ordered,Methyltransferase
+135,89.41,LEU,88.91,ordered,Methyltransferase
+136,88.8,ARG,88.815,ordered,Methyltransferase
+137,83.13,GLY,87.645,ordered,Methyltransferase
+138,86.49,LEU,87.38499999999999,ordered,Methyltransferase
+139,83.78,PRO,87.16,ordered,Methyltransferase
+140,84.78,PRO,87.16,ordered,Methyltransferase
+141,85.57,VAL,87.16,ordered,Methyltransferase
+142,88.28,ASP,87.16,ordered,Methyltransferase
+143,87.83,ARG,88.055,ordered,Methyltransferase
+144,88.89,THR,88.4,ordered,Methyltransferase
+145,91.99,TYR,88.4,ordered,Methyltransferase
+146,92.79,CYS,88.705,ordered,Methyltransferase
+147,90.4,PHE,88.705,ordered,Methyltransferase
+148,88.52,ASP,88.705,ordered,Methyltransferase
+149,88.17,GLY,88.845,ordered,Methyltransferase
+150,92.78,PHE,88.66,ordered,Methyltransferase
+151,86.52,SER,88.66,ordered,Methyltransferase
+152,88.04,ARG,88.66,ordered,Methyltransferase
+153,88.8,CYS,88.535,ordered,Methyltransferase
+154,86.93,ALA,88.675,ordered,Methyltransferase
+155,90.72,PHE,88.985,ordered,Methyltransferase
+156,89.17,ALA,88.985,ordered,Methyltransferase
+157,88.55,ALA,89.92500000000001,ordered,Methyltransferase
+158,90.68,GLU,90.7,ordered,Methyltransferase
+159,93.57,THR,91.22999999999999,ordered,Methyltransferase
+160,93.07,GLY,91.22999999999999,ordered,Methyltransferase
+161,94.61,VAL,91.21000000000001,ordered,Methyltransferase
+162,94.17,ALA,92.19,ordered,Methyltransferase
+163,91.74,LEU,92.19,ordered,Methyltransferase
+164,89.86,TYR,92.19,ordered,Methyltransferase
+165,89.68,SER,90.88499999999999,ordered,Methyltransferase
+166,92.64,LEU,90.61500000000001,ordered,Methyltransferase
+167,89.45,HIS,90.25,ordered,Methyltransferase
+168,85.95,ASP,89.945,ordered,Methyltransferase
+169,90.03,LEU,89.77000000000001,ordered,Methyltransferase
+170,91.2,TRP,89.855,ordered,Methyltransferase
+171,90.47,PRO,89.905,ordered,Methyltransferase
+172,87.64,ALA,89.61500000000001,ordered,Methyltransferase
+173,89.2,ASP,89.905,ordered,Methyltransferase
+174,92.17,VAL,90.065,ordered,Methyltransferase
+175,89.78,ALA,89.94,ordered,Methyltransferase
+176,88.1,GLU,89.49000000000001,ordered,Methyltransferase
+177,90.1,ALA,89.32,ordered,Methyltransferase
+178,92.76,MET,89.32,ordered,Methyltransferase
+179,87.81,ALA,89.61,ordered,Methyltransferase
+180,89.07,ARG,89.61,ordered,Methyltransferase
+181,89.44,HIS,89.77,ordered,Methyltransferase
+182,87.61,GLY,90.93,ordered,Methyltransferase
+183,92.32,MET,92.03999999999999,ordered,Methyltransferase
+184,91.76,THR,92.03999999999999,ordered,Methyltransferase
+185,93.99,ARG,93.155,ordered,Methyltransferase
+186,95.48,LEU,93.505,ordered,Methyltransferase
+187,95.58,TYR,93.505,ordered,Methyltransferase
+188,94.3,ALA,93.505,ordered,Methyltransferase
+189,94.0,ALA,93.505,ordered,Methyltransferase
+190,93.02,LEU,93.505,ordered,Methyltransferase
+191,90.6,HIS,92.58500000000001,ordered,Methyltransferase
+192,92.15,LEU,91.375,ordered,Methyltransferase
+193,89.81,PRO,90.205,ordered,Methyltransferase
+194,86.69,PRO,88.53999999999999,ordered,Methyltransferase
+195,86.58,GLU,86.97999999999999,ordered,Methyltransferase
+196,87.27,VAL,86.63499999999999,ordered,Methyltransferase
+197,81.14,LEU,83.86,ordered,Methyltransferase
+198,75.92,LEU,79.37,ordered,Methyltransferase
+199,67.85,PRO,78.22,ordered,Methyltransferase
+200,71.74,PRO,76.75999999999999,ordered,Methyltransferase
+201,69.19,GLY,75.81,ordered,Methyltransferase
+202,77.6,THR,75.43,ordered,Methyltransferase
+203,78.84,TYR,75.43,ordered,Methyltransferase
+204,75.16,HIS,75.43,ordered,Methyltransferase
+205,75.7,THR,76.50999999999999,ordered,Methyltransferase
+206,72.04,THR,77.46,ordered,Methyltransferase
+207,77.32,SER,78.22,ordered,Methyltransferase
+208,85.68,TYR,81.41,ordered,Methyltransferase
+209,83.98,LEU,82.28,ordered,Methyltransferase
+210,88.05,LEU,82.28,ordered,Methyltransferase
+211,85.9,ILE,84.055,ordered,Methyltransferase
+212,84.88,HIS,84.505,ordered,Methyltransferase
+213,80.58,ASP,85.28,ordered,Methyltransferase
+214,78.22,GLY,85.375,ordered,Methyltransferase
+215,84.13,ASP,85.885,ordered,Methyltransferase
+216,85.87,ARG,85.885,ordered,Methyltransferase
+217,86.84,ALA,86.355,ordered,Methyltransferase
+218,88.87,VAL,86.355,ordered,Methyltransferase
+219,88.59,VAL,86.355,ordered,Methyltransferase
+220,87.93,THR,86.355,ordered,Methyltransferase
+221,87.03,TYR,86.355,ordered,Methyltransferase
+222,80.63,GLU,83.735,ordered,Methyltransferase
+223,73.53,GLY,80.22999999999999,ordered,Methyltransferase
+224,79.83,ASP,79.62,ordered,Methyltransferase
+225,71.15,THR,79.62,ordered,Methyltransferase
+226,70.08,SER,79.62,ordered,Methyltransferase
+227,73.43,ALA,79.62,ordered,Methyltransferase
+228,79.41,GLY,79.62,ordered,Methyltransferase
+229,85.29,TYR,82.56,ordered,Methyltransferase
+230,88.42,ASN,85.89500000000001,ordered,Methyltransferase
+231,90.38,HIS,87.265,ordered,Methyltransferase
+232,89.78,ASP,88.225,ordered,Methyltransferase
+233,86.5,VAL,89.055,ordered,Methyltransferase
+234,88.03,SER,89.28,ordered,Methyltransferase
+235,90.58,ILE,89.735,ordered,Methyltransferase
+236,91.16,LEU,89.735,ordered,Methyltransferase
+237,89.69,ARG,89.28,ordered,Methyltransferase
+238,88.87,ALA,88.7,ordered,Methyltransferase
+239,92.07,TRP,88.7,ordered,Y domain
+240,88.53,ILE,88.7,ordered,Y domain
+241,85.75,ARG,87.955,ordered,Y domain
+242,86.06,THR,87.225,ordered,Y domain
+243,87.07,THR,86.965,ordered,Y domain
+244,87.38,LYS,86.46000000000001,ordered,Y domain
+245,86.86,ILE,85.905,ordered,Y domain
+246,82.99,VAL,85.46000000000001,ordered,Y domain
+247,76.1,GLY,85.61500000000001,ordered,Y domain
+248,78.24,ASP,86.015,ordered,Y domain
+249,81.91,HIS,86.015,ordered,Y domain
+250,85.17,PRO,86.015,ordered,Y domain
+251,88.42,LEU,86.755,ordered,Y domain
+252,89.41,VAL,88.38,ordered,Y domain
+253,90.03,ILE,88.38,ordered,Y domain
+254,88.97,GLU,88.38,ordered,Y domain
+255,88.34,ARG,88.38,ordered,Y domain
+256,89.29,VAL,88.38,ordered,Y domain
+257,88.25,ARG,88.295,ordered,Y domain
+258,86.38,ALA,88.295,ordered,Y domain
+259,87.48,ILE,88.295,ordered,Y domain
+260,81.25,GLY,88.295,ordered,Y domain
+261,86.03,CYS,88.77000000000001,ordered,Y domain
+262,90.98,HIS,89.61500000000001,ordered,Y domain
+263,91.58,PHE,91.28,ordered,Y domain
+264,94.01,VAL,92.175,ordered,Y domain
+265,93.71,LEU,92.175,ordered,Y domain
+266,94.46,LEU,92.175,ordered,Y domain
+267,94.27,LEU,92.175,ordered,Y domain
+268,92.77,THR,92.175,ordered,Y domain
+269,89.01,ALA,90.89,ordered,Y domain
+270,82.74,ALA,85.875,ordered,Y domain
+271,74.34,PRO,79.19999999999999,ordered,Y domain
+272,75.66,GLU,75.0,ordered,Y domain
+273,71.11,PRO,73.455,ordered,Y domain
+274,68.42,SER,72.445,ordered,Y domain
+275,66.14,PRO,72.445,ordered,Y domain
+276,72.57,MET,72.445,ordered,Y domain
+277,72.32,PRO,72.445,ordered,Y domain
+278,72.31,TYR,72.445,ordered,Y domain
+279,81.27,VAL,74.44,ordered,Y domain
+280,78.9,PRO,77.11500000000001,ordered,Y domain
+281,85.63,TYR,78.32,ordered,Y domain
+282,77.92,PRO,78.81,ordered,Y domain
+283,76.31,ARG,78.945,ordered,Y domain
+284,78.72,SER,80.13,ordered,Y domain
+285,78.99,THR,80.785,ordered,Y domain
+286,83.53,GLU,80.785,ordered,Y domain
+287,85.99,VAL,78.85499999999999,ordered,Y domain
+288,83.98,TYR,78.85499999999999,ordered,Y domain
+289,82.58,VAL,78.85499999999999,ordered,Y domain
+290,74.23,ARG,76.61,ordered,Y domain
+291,68.91,SER,71.57,ordered,Y domain
+292,63.51,ILE,66.21,ordered,Y domain
+293,59.11,PHE,61.31,ordered,Y domain
+294,49.8,GLY,54.455,ordered,Y domain
+295,42.0,PRO,45.9,disordered,Y domain
+296,38.09,GLY,41.315,disordered,Y domain
+297,39.15,GLY,41.1,disordered,Y domain
+298,35.73,SER,41.1,disordered,Y domain
+299,39.38,PRO,40.78,disordered,Y domain
+300,40.63,SER,40.005,disordered,Y domain
+301,41.57,LEU,39.265,disordered,Y domain
+302,43.16,PHE,39.265,disordered,Y domain
+303,40.93,PRO,38.85,disordered,Y domain
+304,38.32,SER,38.85,disordered,Y domain
+305,34.72,ALA,39.475,disordered,Y domain
+306,30.47,CYS,39.625,disordered,Y domain
+307,35.83,SER,39.625,disordered,Y domain
+308,37.86,THR,39.625,disordered,Y domain
+309,46.51,LYS,42.415,disordered,Y domain
+310,49.25,SER,47.879999999999995,disordered,Y domain
+311,61.82,THR,55.535,ordered,Y domain
+312,73.37,PHE,67.595,ordered,Y domain
+313,78.18,HIS,75.775,ordered,Y domain
+314,81.57,ALA,79.875,ordered,Y domain
+315,85.61,VAL,82.235,ordered,Y domain
+316,86.35,PRO,84.18,ordered,Y domain
+317,85.46,VAL,85.535,ordered,Y domain
+318,82.9,HIS,85.97999999999999,ordered,Y domain
+319,88.05,ILE,86.965,ordered,Y domain
+320,89.87,TRP,87.63,ordered,Y domain
+321,87.58,ASP,87.86500000000001,ordered,Y domain
+322,87.68,ARG,88.06,ordered,Y domain
+323,91.31,LEU,88.21,ordered,Y domain
+324,90.62,MET,88.21,ordered,Y domain
+325,88.07,LEU,88.21,ordered,Y domain
+326,90.96,PHE,87.875,ordered,Y domain
+327,88.35,GLY,87.875,ordered,Y domain
+328,83.77,ALA,87.115,ordered,Y domain
+329,84.57,THR,85.365,ordered,Y domain
+330,86.16,LEU,84.16999999999999,ordered,Y domain
+331,82.04,ASP,84.16999999999999,ordered,Y domain
+332,77.93,ASP,84.16999999999999,ordered,Y domain
+333,77.03,GLN,84.16999999999999,ordered,Y domain
+334,79.91,ALA,84.715,ordered,Y domain
+335,88.82,PHE,85.50999999999999,ordered,Y domain
+336,89.13,CYS,85.63499999999999,ordered,Y domain
+337,86.41,CYS,86.905,ordered,Y domain
+338,84.86,SER,86.905,ordered,Y domain
+339,87.4,ARG,88.11,ordered,Y domain
+340,90.66,LEU,88.58,ordered,Y domain
+341,89.64,MET,87.87,ordered,Y domain
+342,85.41,THR,86.905,ordered,Y domain
+343,89.39,TYR,86.405,ordered,Y domain
+344,88.34,LEU,86.405,ordered,Y domain
+345,84.5,ARG,84.955,ordered,Y domain
+346,80.77,GLY,84.075,ordered,Y domain
+347,83.65,ILE,82.21000000000001,ordered,Y domain
+348,79.08,SER,79.925,ordered,Y domain
+349,76.93,TYR,78.005,ordered,Y domain
+350,72.57,LYS,74.75,ordered,Y domain
+351,62.35,VAL,68.775,ordered,Y domain
+352,61.95,THR,63.665000000000006,ordered,Y domain
+353,57.78,VAL,62.150000000000006,ordered,Y domain
+354,64.98,GLY,59.865,ordered,Y domain
+355,50.89,ALA,59.865,ordered,Y domain
+356,41.23,LEU,59.865,ordered,Y domain
+357,56.77,VAL,59.865,ordered,Y domain
+358,53.85,ALA,60.055,ordered,Y domain
+359,62.33,ASN,62.89,ordered,Y domain
+360,63.45,GLU,62.89,ordered,Y domain
+361,64.28,GLY,63.865,ordered,Y domain
+362,78.65,TRP,67.24000000000001,ordered,Y domain
+363,70.2,ASN,69.35,ordered,Y domain
+364,72.44,ALA,70.89500000000001,ordered,Y domain
+365,71.59,SER,72.015,ordered,Y domain
+366,72.46,GLU,72.44999999999999,ordered,Y domain
+367,68.5,ASP,74.405,ordered,Y domain
+368,76.35,ALA,74.405,ordered,Y domain
+369,84.68,LEU,77.755,ordered,Y domain
+370,82.16,THR,80.66,ordered,Y domain
+371,79.16,ALA,82.765,ordered,Y domain
+372,88.44,VAL,83.605,ordered,Y domain
+373,90.22,ILE,84.26,ordered,Y domain
+374,83.84,THR,84.26,ordered,Y domain
+375,83.37,ALA,83.605,ordered,Y domain
+376,88.88,ALA,85.965,ordered,Y domain
+377,89.46,TYR,85.965,ordered,Y domain
+378,81.68,LEU,83.625,ordered,Y domain
+379,82.48,THR,83.39,ordered,Y domain
+380,88.09,ILE,82.92500000000001,ordered,Y domain
+381,83.41,CYS,82.08000000000001,ordered,Y domain
+382,76.14,HIS,81.535,ordered,Y domain
+383,77.22,GLN,79.305,ordered,Y domain
+384,81.39,ARG,76.68,ordered,Y domain
+385,74.51,TYR,75.325,ordered,Y domain
+386,66.18,LEU,73.68,ordered,Y domain
+387,69.71,ARG,71.28999999999999,ordered,Y domain
+388,72.85,THR,69.72,ordered,Y domain
+389,69.73,GLN,68.41999999999999,ordered,Y domain
+390,61.14,ALA,66.655,ordered,Y domain
+391,67.13,ILE,66.655,ordered,Y domain
+392,65.99,SER,67.435,ordered,Y domain
+393,61.98,LYS,66.56,ordered,Y domain
+394,62.96,GLY,64.475,ordered,Y domain
+395,68.19,MET,64.475,ordered,Y domain
+396,67.74,ARG,64.475,ordered,Y domain
+397,58.45,ARG,62.510000000000005,ordered,Y domain
+398,62.06,LEU,62.019999999999996,ordered,Y domain
+399,70.56,GLU,61.715,ordered,Y domain
+400,61.37,VAL,60.62,ordered,Y domain
+401,57.5,GLU,59.629999999999995,ordered,Y domain
+402,59.39,HIS,58.92,ordered,Y domain
+403,59.87,ALA,58.445,ordered,Y domain
+404,50.67,GLN,56.65,ordered,Y domain
+405,47.53,LYS,55.739999999999995,ordered,Y domain
+406,54.1,PHE,54.89,ordered,Y domain
+407,55.68,ILE,54.89,ordered,Y domain
+408,55.8,THR,53.644999999999996,ordered,Y domain
+409,50.34,ARG,53.095,ordered,Y domain
+410,53.19,LEU,53.095,ordered,Y domain
+411,55.93,TYR,53.129999999999995,ordered,Y domain
+412,52.15,SER,53.035,ordered,Y domain
+413,53.0,TRP,52.575,ordered,Y domain
+414,48.78,LEU,51.245000000000005,ordered,Y domain
+415,53.07,PHE,50.465,ordered,Y domain
+416,46.83,GLU,47.805,disordered,Y domain
+417,36.84,LYS,41.835,disordered,Y domain
+418,33.02,SER,34.93000000000001,disordered,Y domain
+419,27.96,GLY,32.145,disordered,Y domain
+420,28.0,ARG,31.155,disordered,Y domain
+421,28.92,ASP,31.155,disordered,Y domain
+422,31.27,TYR,31.155,disordered,Y domain
+423,29.69,ILE,31.155,disordered,Y domain
+424,31.04,PRO,31.155,disordered,Y domain
+425,35.18,GLY,31.990000000000002,disordered,Y domain
+426,32.71,ARG,33.945,disordered,Y domain
+427,39.39,GLN,37.25,disordered,Y domain
+428,40.95,LEU,39.355000000000004,disordered,Y domain
+429,39.32,GLN,40.120000000000005,disordered,Y domain
+430,40.85,PHE,40.245000000000005,disordered,Y domain
+431,42.82,TYR,40.900000000000006,disordered,Y domain
+432,42.62,ALA,41.465,disordered,Y domain
+433,41.98,GLN,42.3,disordered,Y domain
+434,39.64,CYS,42.695,disordered,Y domain
+435,42.77,ARG,42.795,disordered,Y domain
+436,45.68,ARG,44.045,disordered,Y domain
+437,49.69,TRP,45.475,disordered,Y domain
+438,48.74,LEU,46.79,disordered,Y domain
+439,45.27,SER,48.32,disordered,Y domain
+440,47.9,ALA,49.215,disordered,Protease
+441,56.96,GLY,53.325,ordered,Protease
+442,69.26,PHE,63.11,ordered,Protease
+443,75.67,HIS,72.465,ordered,Protease
+444,76.9,LEU,75.17500000000001,ordered,Protease
+445,80.54,ASP,75.17500000000001,ordered,Protease
+446,77.82,PRO,75.17500000000001,ordered,Protease
+447,82.38,ARG,76.285,ordered,Protease
+448,74.68,VAL,76.285,ordered,Protease
+449,69.92,LEU,76.965,ordered,Protease
+450,70.74,VAL,77.39,ordered,Protease
+451,77.75,PHE,77.39,ordered,Protease
+452,74.89,ASP,75.96000000000001,ordered,Protease
+453,77.03,GLU,74.785,ordered,Protease
+454,79.27,SER,73.905,ordered,Protease
+455,78.26,VAL,73.905,ordered,Protease
+456,72.92,PRO,73.905,ordered,Protease
+457,67.52,CYS,70.22,ordered,Protease
+458,66.39,ARG,66.955,ordered,Protease
+459,52.68,CYS,59.535,ordered,Protease
+460,43.34,ARG,48.43,disordered,Protease
+461,44.18,THR,43.760000000000005,disordered,Protease
+462,40.68,PHE,43.69,disordered,Protease
+463,42.57,LEU,43.17,disordered,Protease
+464,43.0,LYS,42.785,disordered,Protease
+465,41.92,LYS,42.245000000000005,disordered,Protease
+466,44.04,VAL,41.425,disordered,Protease
+467,40.26,ALA,40.805,disordered,Protease
+468,36.74,GLY,41.425,disordered,Protease
+469,40.93,LYS,40.975,disordered,Protease
+470,35.69,PHE,40.595,disordered,Protease
+471,39.21,CYS,40.05,disordered,Protease
+472,42.09,CYS,39.58,disordered,Protease
+473,41.02,PHE,39.265,disordered,Protease
+474,39.84,MET,39.265,disordered,Protease
+475,39.15,ARG,39.18,disordered,Protease
+476,39.32,TRP,39.18,disordered,Protease
+477,36.18,LEU,37.935,disordered,Protease
+478,33.06,GLY,36.45,disordered,Protease
+479,32.51,GLN,36.114999999999995,disordered,Protease
+480,32.59,GLU,36.08,disordered,Protease
+481,36.72,CYS,34.709999999999994,disordered,Protease
+482,33.37,THR,33.37,disordered,Protease
+483,36.05,CYS,33.215,disordered,Protease
+484,36.11,PHE,33.155,disordered,Protease
+485,32.94,LEU,33.155,disordered,Protease
+486,33.37,GLU,33.155,disordered,Protease
+487,26.31,PRO,31.419999999999998,disordered,Protease
+488,29.9,ALA,29.705,disordered,Protease
+489,29.51,GLU,28.825000000000003,disordered,Protease
+490,28.14,GLY,27.975,disordered,Protease
+491,27.81,LEU,27.78,disordered,Protease
+492,26.78,VAL,27.395,disordered,Protease
+493,27.75,GLY,27.575,disordered,Protease
+494,26.55,ASP,27.22,disordered,Protease
+495,27.04,HIS,27.22,disordered,Protease
+496,26.47,GLY,26.91,disordered,Protease
+497,27.4,HIS,26.91,disordered,Protease
+498,26.6,ASP,27.11,disordered,Protease
+499,27.76,ASN,27.11,disordered,Protease
+500,26.68,GLU,27.23,disordered,Protease
+501,27.94,ALA,27.34,disordered,Protease
+502,27.18,TYR,27.58,disordered,Protease
+503,27.28,GLU,27.85,disordered,Protease
+504,28.26,GLY,28.1,disordered,Protease
+505,29.19,SER,28.1,disordered,Protease
+506,28.77,GLU,28.39,disordered,Protease
+507,31.35,VAL,28.645,disordered,Protease
+508,30.57,ASP,28.98,disordered,Protease
+509,27.3,GLN,29.880000000000003,disordered,Protease
+510,28.52,ALA,30.695,disordered,Protease
+511,30.82,GLU,31.085,disordered,Protease
+512,38.72,PRO,34.965,disordered,Protease
+513,38.58,ALA,38.65,disordered,Protease
+514,51.23,HIS,44.974999999999994,disordered,Protease
+515,58.18,LEU,54.705,ordered,Protease
+516,72.68,ASP,65.43,ordered,Protease
+517,85.6,VAL,79.14,ordered,Protease
+518,86.39,SER,85.995,ordered,Protease
+519,88.73,GLY,87.56,ordered,Protease
+520,91.92,THR,89.84,ordered,Protease
+521,93.04,TYR,89.84,ordered,Protease
+522,92.14,ALA,90.69,ordered,Protease
+523,91.9,VAL,90.69,ordered,Protease
+524,90.95,HIS,90.705,ordered,Protease
+525,87.84,GLY,90.705,ordered,Protease
+526,90.43,HIS,90.445,ordered,Protease
+527,89.76,GLN,90.095,ordered,Protease
+528,90.46,LEU,90.095,ordered,Protease
+529,89.61,VAL,89.685,ordered,Protease
+530,87.64,ALA,89.455,ordered,Protease
+531,89.3,LEU,89.455,ordered,Protease
+532,90.97,TYR,88.47,ordered,Protease
+533,86.82,ARG,87.22999999999999,ordered,Protease
+534,85.95,ALA,87.22999999999999,ordered,Protease
+535,86.82,LEU,87.22999999999999,ordered,Protease
+536,86.22,ASN,87.38999999999999,ordered,Protease
+537,85.54,VAL,87.38999999999999,ordered,Protease
+538,89.41,PRO,87.38999999999999,ordered,Protease
+539,87.96,HIS,88.35499999999999,ordered,Protease
+540,89.77,ASP,89.08,ordered,Protease
+541,90.37,ILE,89.36,ordered,Protease
+542,89.67,ALA,89.53999999999999,ordered,Protease
+543,88.75,ALA,89.72,ordered,Protease
+544,91.4,ARG,89.79499999999999,ordered,Protease
+545,89.31,ALA,89.91999999999999,ordered,Protease
+546,90.02,SER,90.195,ordered,Protease
+547,89.82,ARG,90.515,ordered,Protease
+548,92.02,LEU,91.20500000000001,ordered,Protease
+549,91.87,THR,91.635,ordered,Protease
+550,91.01,ALA,91.76,ordered,Protease
+551,93.38,THR,91.76,ordered,Protease
+552,92.37,VAL,91.76,ordered,Protease
+553,92.5,GLU,91.76,ordered,Protease
+554,91.65,LEU,91.33000000000001,ordered,Protease
+555,89.72,VAL,90.36500000000001,ordered,Protease
+556,82.88,ALA,87.74000000000001,ordered,Protease
+557,79.46,GLY,86.91499999999999,ordered,Protease
+558,71.75,PRO,86.91499999999999,ordered,Protease
+559,75.21,ASP,86.91499999999999,ordered,Protease
+560,85.76,ARG,86.91499999999999,ordered,Protease
+561,88.07,LEU,86.91499999999999,ordered,Protease
+562,89.27,GLU,88.66,ordered,Protease
+563,90.24,CYS,88.66,ordered,Protease
+564,91.09,ARG,88.66,ordered,Protease
+565,90.06,THR,88.66,ordered,Protease
+566,89.25,VAL,88.66,ordered,Protease
+567,87.16,LEU,88.205,ordered,Protease
+568,84.91,GLY,86.865,ordered,Protease
+569,82.58,ASN,86.655,ordered,Protease
+570,79.23,LYS,86.655,ordered,Protease
+571,84.67,THR,86.655,ordered,Protease
+572,86.57,PHE,86.655,ordered,Protease
+573,86.74,ARG,86.655,ordered,Protease
+574,87.37,THR,86.655,ordered,Protease
+575,88.21,THR,86.655,ordered,Protease
+576,88.73,VAL,86.655,ordered,Protease
+577,88.31,VAL,86.655,ordered,Protease
+578,86.46,ASP,86.6,ordered,Protease
+579,79.99,GLY,85.28999999999999,ordered,Protease
+580,80.18,ALA,83.43,ordered,Protease
+581,82.74,HIS,82.36,ordered,Protease
+582,84.12,LEU,81.08000000000001,ordered,Protease
+583,81.98,GLU,80.08500000000001,ordered,Protease
+584,79.57,ALA,79.78,ordered,Protease
+585,74.87,ASN,77.22,ordered,Protease
+586,70.16,GLY,75.845,ordered,Protease
+587,56.27,PRO,75.845,ordered,Protease
+588,64.37,GLU,75.845,ordered,Protease
+589,68.6,GLN,75.845,ordered,Protease
+590,76.82,TYR,75.845,ordered,Protease
+591,80.94,VAL,78.88,ordered,Protease
+592,89.06,LEU,79.435,ordered,Protease
+593,86.1,SER,79.435,ordered,Protease
+594,88.01,PHE,79.435,ordered,Protease
+595,83.27,ASP,82.10499999999999,ordered,Protease
+596,77.93,ALA,84.685,ordered,Protease
+597,71.95,SER,86.32,ordered,Protease
+598,77.12,CYS,86.32,ordered,Protease
+599,86.54,GLN,86.495,ordered,Protease
+600,88.36,SER,84.86,ordered,Protease
+601,91.75,MET,84.39500000000001,ordered,Protease
+602,88.56,GLY,86.495,ordered,Protease
+603,86.45,ALA,87.23,ordered,Protease
+604,82.26,GLY,88.14,ordered,Protease
+605,82.34,SER,88.46000000000001,ordered,Protease
+606,87.92,HIS,88.89500000000001,ordered,Protease
+607,89.23,ASN,88.4,ordered,Protease
+608,89.9,LEU,88.08,ordered,Protease
+609,91.36,THR,88.08,ordered,Protease
+610,91.32,TYR,88.08,ordered,Protease
+611,88.24,GLU,88.08,ordered,
+612,87.87,LEU,88.055,ordered,
+613,86.44,THR,88.055,ordered,
+614,82.09,PRO,88.055,ordered,
+615,82.83,ALA,88.055,ordered,
+616,87.51,GLY,88.055,ordered,
+617,90.41,LEU,89.14,ordered,
+618,91.59,GLN,89.41,ordered,
+619,91.51,VAL,89.41,ordered,
+620,91.97,ARG,89.41,ordered,
+621,90.91,ILE,89.41,ordered,
+622,88.41,SER,89.41,ordered,
+623,84.94,SER,87.21000000000001,ordered,
+624,79.68,ASN,87.01,ordered,
+625,77.58,GLY,87.01,ordered,
+626,85.14,LEU,87.01,ordered,
+627,86.01,ASP,87.01,ordered,
+628,88.01,CYS,87.01,ordered,
+629,89.6,THR,88.39,ordered,
+630,88.77,ALA,88.645,ordered,
+631,91.24,THR,88.645,ordered,
+632,92.6,PHE,88.645,ordered,
+633,91.37,PRO,88.645,ordered,
+634,88.52,PRO,88.645,ordered,
+635,84.37,GLY,86.445,ordered,
+636,78.65,GLY,83.185,ordered,
+637,81.77,ALA,82.95,ordered,
+638,82.0,PRO,81.88499999999999,ordered,
+639,80.15,SER,81.10499999999999,ordered,
+640,80.44,ALA,81.10499999999999,ordered,
+641,83.9,ALA,81.10499999999999,ordered,
+642,80.11,PRO,81.10499999999999,ordered,
+643,77.01,GLY,80.295,ordered,
+644,85.67,GLU,80.295,ordered,
+645,84.63,VAL,82.17,ordered,
+646,79.17,ALA,82.005,ordered,
+647,79.69,ALA,82.345,ordered,
+648,89.39,PHE,84.60499999999999,ordered,
+649,84.69,CYS,84.60499999999999,ordered,
+650,78.07,ALA,83.755,ordered,
+651,84.58,ALA,83.755,ordered,
+652,87.9,LEU,84.63499999999999,ordered,
+653,81.19,TYR,84.63499999999999,ordered,
+654,82.93,ARG,83.755,ordered,
+655,86.9,TYR,82.80000000000001,ordered,
+656,85.46,ASN,82.80000000000001,ordered,
+657,78.15,ARG,81.93,ordered,
+658,82.67,PHE,79.895,ordered,
+659,78.6,THR,78.375,ordered,
+660,76.22,GLN,77.185,ordered,
+661,72.25,ARG,74.235,ordered,
+662,69.91,HIS,71.08,ordered,
+663,61.37,SER,71.08,ordered,
+664,50.5,LEU,71.08,ordered,
+665,54.53,THR,71.08,ordered,
+666,61.61,GLY,71.08,ordered,
+667,75.01,GLY,72.46000000000001,ordered,
+668,83.06,LEU,79.035,ordered,
+669,86.36,TRP,84.71000000000001,ordered,
+670,88.66,LEU,85.91,ordered,
+671,89.4,HIS,87.445,ordered,
+672,89.17,PRO,88.595,ordered,
+673,88.53,GLU,88.595,ordered,
+674,85.46,GLY,88.91499999999999,ordered,
+675,90.28,LEU,89.245,ordered,
+676,89.32,LEU,89.245,ordered,
+677,87.65,GLY,89.065,ordered,
+678,89.87,ILE,89.13999999999999,ordered,
+679,90.52,PHE,89.13999999999999,ordered,
+680,88.96,PRO,89.13999999999999,ordered,
+681,88.53,PRO,88.745,ordered,
+682,90.9,PHE,88.09,ordered,Hinge
+683,86.32,SER,87.425,ordered,Hinge
+684,83.0,PRO,84.66,ordered,Hinge
+685,66.48,GLY,78.52000000000001,ordered,Hinge
+686,70.94,HIS,72.49000000000001,ordered,Hinge
+687,74.04,ILE,68.97,ordered,Hinge
+688,67.0,TRP,66.74000000000001,ordered,Hinge
+689,54.08,GLU,60.28,ordered,Hinge
+690,49.94,SER,52.01,ordered,Hinge
+691,44.44,ALA,47.19,disordered,Hinge
+692,39.84,ASN,42.14,disordered,Hinge
+693,32.23,PRO,36.64,disordered,Hinge
+694,29.76,PHE,32.834999999999994,disordered,Hinge
+695,33.44,CYS,31.96,disordered,Hinge
+696,28.32,GLY,31.96,disordered,Hinge
+697,29.32,GLU,31.315,disordered,Hinge
+698,29.15,GLY,31.315,disordered,Hinge
+699,31.69,THR,30.35,disordered,Hinge
+700,34.06,LEU,30.130000000000003,disordered,Hinge
+701,30.94,TYR,29.235,disordered,Hinge
+702,32.79,THR,29.235,disordered,Hinge
+703,26.85,ARG,28.0,disordered,Hinge
+704,26.33,THR,26.810000000000002,disordered,Hinge
+705,25.05,TRP,26.549999999999997,disordered,Hinge
+706,26.02,SER,26.174999999999997,disordered,Hinge
+707,26.77,THR,25.865000000000002,disordered,Hinge
+708,24.99,SER,25.5,disordered,Hinge
+709,25.71,GLY,25.185,disordered,Hinge
+710,23.39,PHE,25.185,disordered,Hinge
+711,25.29,SER,25.5,disordered,Hinge
+712,25.08,SER,25.5,disordered,Hinge
+713,24.39,ASP,25.5,disordered,Hinge
+714,26.34,PHE,25.86,disordered,Hinge
+715,26.18,SER,26.095,disordered,Hinge
+716,27.02,PRO,26.259999999999998,disordered,Hinge
+717,29.08,PRO,26.68,disordered,Hinge
+718,26.01,GLU,27.5,disordered,Hinge
+719,28.3,ALA,28.14,disordered,Hinge
+720,27.98,ALA,28.689999999999998,disordered,Hinge
+721,29.36,ALA,29.119999999999997,disordered,Hinge
+722,33.75,PRO,29.259999999999998,disordered,Hinge
+723,29.16,ALA,30.255,disordered,Hinge
+724,31.15,SER,31.299999999999997,disordered,Hinge
+725,31.45,ALA,31.770000000000003,disordered,Hinge
+726,32.09,ALA,32.005,disordered,Hinge
+727,32.26,ALA,32.175,disordered,Hinge
+728,43.26,PRO,32.075,disordered,Hinge
+729,34.14,GLY,32.175,disordered,Hinge
+730,31.92,LEU,32.175,disordered,Hinge
+731,38.71,PRO,32.175,disordered,Hinge
+732,32.06,HIS,33.2,disordered,Hinge
+733,35.5,PRO,33.1,disordered,Hinge
+734,30.67,THR,33.1,disordered,Hinge
+735,31.96,PRO,32.010000000000005,disordered,Hinge
+736,36.05,PRO,32.010000000000005,disordered,Hinge
+737,30.86,ALA,31.41,disordered,Hinge
+738,34.62,SER,30.795,disordered,Hinge
+739,28.79,ASP,30.795,disordered,Hinge
+740,29.43,ILE,31.205,disordered,Hinge
+741,29.17,TRP,31.205,disordered,Hinge
+742,30.73,ALA,31.205,disordered,Hinge
+743,31.55,LEU,32.57,disordered,Hinge
+744,33.59,PRO,32.57,disordered,Hinge
+745,34.53,PRO,34.06,disordered,Hinge
+746,39.28,PRO,36.905,disordered,Hinge
+747,47.72,SER,41.67,disordered,Hinge
+748,44.06,GLU,45.89,disordered,Hinge
+749,52.54,GLU,50.129999999999995,ordered,Hinge
+750,57.44,CYS,54.989999999999995,ordered,Hinge
+751,58.51,TYR,57.974999999999994,ordered,Hinge
+752,68.85,THR,63.67999999999999,ordered,Hinge
+753,77.53,ARG,73.19,ordered,Hinge
+754,81.01,LEU,79.27000000000001,ordered,Hinge
+755,81.92,GLY,81.465,ordered,Hinge
+756,87.1,ASN,83.245,ordered,Hinge
+757,87.35,ASP,85.835,ordered,Hinge
+758,89.21,PHE,87.225,ordered,Hinge
+759,88.91,HIS,87.565,ordered,Hinge
+760,84.57,THR,87.565,ordered,Hinge
+761,89.19,ASN,87.565,ordered,Hinge
+762,90.45,LYS,87.565,ordered,Hinge
+763,87.78,ARG,86.175,ordered,Hinge
+764,84.24,VAL,84.405,ordered,Hinge
+765,81.19,CYS,83.685,ordered,Hinge
+766,83.13,GLU,82.16,ordered,Hinge
+767,79.91,GLU,80.55,ordered,Hinge
+768,70.89,ILE,77.94999999999999,ordered,Hinge
+769,69.73,ALA,76.96000000000001,ordered,Hinge
+770,74.64,ILE,76.96000000000001,ordered,Hinge
+771,75.99,ILE,75.755,ordered,Hinge
+772,64.8,PRO,75.66499999999999,ordered,Hinge
+773,77.93,SER,75.66499999999999,ordered,Hinge
+774,78.87,LYS,75.9,ordered,Hinge
+775,75.52,LYS,76.96000000000001,ordered,Hinge
+776,75.81,PRO,78.4,ordered,Hinge
+777,86.95,ARG,79.03999999999999,ordered,Hinge
+778,85.65,ASN,79.63,ordered,Hinge
+779,80.05,LYS,79.685,ordered,Hinge
+780,79.21,MET,81.015,ordered,Hinge
+781,87.04,ALA,83.36,ordered,Hinge
+782,84.74,GLY,83.36,ordered,Hinge
+783,79.32,TYR,81.185,ordered,Hinge
+784,81.98,VAL,81.185,ordered,Hinge
+785,87.87,THR,83.015,ordered,Hinge
+786,80.39,HIS,83.015,ordered,Hinge
+787,77.42,LEU,81.185,ordered,Hinge
+788,84.05,MET,79.85499999999999,ordered,Hinge
+789,84.4,LYS,78.905,ordered,Hinge
+790,75.25,ARG,76.33500000000001,ordered,Hinge
+791,73.23,ILE,74.24000000000001,ordered,Hinge
+792,70.64,GLN,71.935,ordered,Hinge
+793,64.98,ARG,67.81,ordered,Hinge
+794,54.91,GLY,59.945,ordered,Hinge
+795,51.04,PRO,53.775,ordered,Hinge
+796,52.64,VAL,51.84,ordered,Hinge
+797,41.66,ARG,50.57,ordered,Hinge
+798,45.19,GLY,50.055,ordered,Hinge
+799,50.1,ILE,47.599999999999994,disordered,Hinge
+800,50.01,SER,45.004999999999995,disordered,Hinge
+801,44.82,ILE,44.765,disordered,Hinge
+802,44.71,LYS,43.185,disordered,Hinge
+803,40.77,LEU,42.74,disordered,Hinge
+804,38.37,GLN,40.31,disordered,Hinge
+805,39.85,GLU,39.11,disordered,Hinge
+806,37.91,GLU,38.16,disordered,Hinge
+807,37.66,ALA,37.93,disordered,Hinge
+808,37.72,GLN,37.815,disordered,Hinge
+809,37.95,VAL,37.69,disordered,Hinge
+810,31.83,ASP,35.224999999999994,disordered,Hinge
+811,32.79,ALA,32.31,disordered,Hinge
+812,29.16,ALA,32.04,disordered,Hinge
+813,30.5,SER,31.564999999999998,disordered,Hinge
+814,30.47,VAL,31.380000000000003,disordered,Hinge
+815,31.3,PRO,31.380000000000003,disordered,Hinge
+816,32.25,LEU,31.380000000000003,disordered,Hinge
+817,29.9,THR,30.9,disordered,Hinge
+818,31.46,LEU,30.9,disordered,Hinge
+819,33.78,VAL,30.884999999999998,disordered,Hinge
+820,33.63,PRO,31.035,disordered,Hinge
+821,28.21,ALA,31.115000000000002,disordered,Hinge
+822,28.4,GLY,31.0,disordered,Hinge
+823,29.71,SER,31.345,disordered,Hinge
+824,30.77,PRO,31.0,disordered,Hinge
+825,41.03,SER,31.0,disordered,Hinge
+826,31.23,PRO,31.0,disordered,Hinge
+827,36.49,VAL,31.0,disordered,Hinge
+828,29.48,VAL,31.0,disordered,Hinge
+829,31.97,SER,31.6,disordered,Hinge
+830,33.36,PRO,32.665,disordered,Hinge
+831,28.72,SER,32.665,disordered,Hinge
+832,28.71,PRO,33.57,disordered,Hinge
+833,40.06,PRO,33.57,disordered,Hinge
+834,34.08,PRO,33.93,disordered,Hinge
+835,33.78,PRO,33.93,disordered,Hinge
+836,36.0,PRO,33.93,disordered,Hinge
+837,36.71,PRO,33.93,disordered,Hinge
+838,34.29,VAL,33.93,disordered,Hinge
+839,32.22,ARG,33.0,disordered,Hinge
+840,27.95,LYS,31.095,disordered,Hinge
+841,28.55,PRO,29.259999999999998,disordered,Hinge
+842,26.32,SER,29.259999999999998,disordered,Hinge
+843,26.98,THR,29.259999999999998,disordered,Hinge
+844,29.97,PRO,29.259999999999998,disordered,Hinge
+845,28.49,PRO,29.259999999999998,disordered,Hinge
+846,35.51,PRO,32.739999999999995,disordered,Hinge
+847,38.77,SER,37.14,disordered,Hinge
+848,46.9,ARG,42.835,disordered,Hinge
+849,59.89,THR,53.394999999999996,ordered,Hinge
+850,77.95,ARG,68.92,ordered,Hinge
+851,88.19,ARG,82.295,ordered,
+852,89.44,LEU,84.56,ordered,
+853,87.64,LEU,84.56,ordered,
+854,86.64,TYR,85.38499999999999,ordered,
+855,87.41,THR,85.975,ordered,
+856,82.48,TYR,87.025,ordered,
+857,78.38,PRO,87.025,ordered,X domain
+858,84.13,ASP,87.025,ordered,X domain
+859,85.31,GLY,87.025,ordered,X domain
+860,90.65,ALA,89.03,ordered,X domain
+861,92.46,LYS,88.385,ordered,X domain
+862,93.17,VAL,89.37,ordered,X domain
+863,93.41,TYR,90.945,ordered,X domain
+864,91.44,ALA,91.22,ordered,X domain
+865,86.12,GLY,91.22,ordered,X domain
+866,88.09,SER,91.245,ordered,X domain
+867,91.24,LEU,91.22,ordered,X domain
+868,91.2,PHE,91.22,ordered,X domain
+869,87.85,GLU,91.22,ordered,X domain
+870,91.25,SER,91.22,ordered,X domain
+871,88.94,ASP,91.245,ordered,X domain
+872,93.4,CYS,92.19,ordered,X domain
+873,93.13,ASP,93.265,ordered,X domain
+874,95.57,TRP,93.265,ordered,X domain
+875,95.61,LEU,93.265,ordered,X domain
+876,95.34,VAL,93.265,ordered,X domain
+877,93.57,ASN,93.265,ordered,X domain
+878,92.68,ALA,92.905,ordered,X domain
+879,89.37,SER,91.025,ordered,X domain
+880,88.09,ASN,88.73,ordered,X domain
+881,86.07,PRO,87.08,ordered,X domain
+882,83.31,GLY,86.03999999999999,ordered,X domain
+883,86.01,HIS,85.47,ordered,X domain
+884,84.93,ARG,84.12,ordered,X domain
+885,83.16,PRO,84.12,ordered,X domain
+886,78.98,GLY,84.12,ordered,X domain
+887,81.18,GLY,84.12,ordered,X domain
+888,83.19,GLY,85.47,ordered,X domain
+889,88.09,LEU,86.51,ordered,X domain
+890,91.69,CYS,88.655,ordered,X domain
+891,89.22,HIS,89.305,ordered,X domain
+892,90.19,ALA,89.78999999999999,ordered,X domain
+893,93.06,PHE,90.8,ordered,X domain
+894,91.61,HIS,90.8,ordered,X domain
+895,89.39,GLN,90.8,ordered,X domain
+896,91.41,ARG,90.11,ordered,X domain
+897,91.45,PHE,90.11,ordered,X domain
+898,89.76,PRO,89.89500000000001,ordered,X domain
+899,87.24,GLU,89.575,ordered,X domain
+900,90.03,ALA,89.33500000000001,ordered,X domain
+901,89.28,PHE,88.725,ordered,X domain
+902,88.17,TYR,87.705,ordered,X domain
+903,81.47,PRO,86.38,ordered,X domain
+904,84.02,THR,84.77,ordered,X domain
+905,82.81,GLU,83.43,ordered,X domain
+906,85.52,PHE,82.825,ordered,X domain
+907,82.84,ILE,82.14,ordered,X domain
+908,78.75,MET,82.14,ordered,X domain
+909,70.53,ARG,82.825,ordered,X domain
+910,73.77,GLU,82.825,ordered,X domain
+911,79.36,GLY,84.18,ordered,X domain
+912,88.94,LEU,85.89,ordered,X domain
+913,90.56,ALA,89.63,ordered,X domain
+914,91.28,ALA,89.63,ordered,X domain
+915,92.6,TYR,89.63,ordered,X domain
+916,91.44,THR,90.44,ordered,X domain
+917,90.32,LEU,90.92,ordered,X domain
+918,84.61,THR,91.36,ordered,X domain
+919,85.19,PRO,91.71000000000001,ordered,X domain
+920,91.98,ARG,92.28999999999999,ordered,X domain
+921,93.28,PRO,92.63,ordered,X domain
+922,94.55,ILE,92.875,ordered,X domain
+923,94.19,ILE,92.875,ordered,X domain
+924,93.5,HIS,92.875,ordered,X domain
+925,93.55,ALA,92.875,ordered,X domain
+926,92.47,VAL,92.875,ordered,X domain
+927,91.9,ALA,92.185,ordered,X domain
+928,90.87,PRO,91.385,ordered,X domain
+929,89.08,ASP,89.975,ordered,X domain
+930,88.28,TYR,88.68,ordered,X domain
+931,83.15,ARG,88.28,ordered,X domain
+932,81.46,VAL,87.815,ordered,X domain
+933,77.56,GLU,87.815,ordered,X domain
+934,87.35,GLN,87.815,ordered,X domain
+935,88.28,ASN,87.815,ordered,X domain
+936,86.7,PRO,87.815,ordered,X domain
+937,88.76,LYS,88.52000000000001,ordered,X domain
+938,90.42,ARG,89.59,ordered,X domain
+939,93.99,LEU,91.06,ordered,X domain
+940,91.7,GLU,91.855,ordered,X domain
+941,92.01,ALA,91.97,ordered,X domain
+942,92.8,ALA,92.405,ordered,X domain
+943,95.62,TYR,92.405,ordered,X domain
+944,93.72,ARG,92.405,ordered,X domain
+945,91.93,GLU,91.97,ordered,X domain
+946,93.07,THR,91.97,ordered,X domain
+947,90.91,CYS,91.42,ordered,X domain
+948,86.78,SER,91.42,ordered,X domain
+949,90.24,ARG,91.42,ordered,X domain
+950,86.57,ARG,91.42,ordered,X domain
+951,89.75,GLY,91.99,ordered,X domain
+952,93.85,THR,92.38,ordered,X domain
+953,95.58,ALA,94.38,ordered,X domain
+954,96.02,ALA,94.41,ordered,X domain
+955,96.36,TYR,94.41,ordered,X domain
+956,94.91,PRO,94.41,ordered,X domain
+957,95.04,LEU,94.41,ordered,X domain
+958,93.91,LEU,94.41,ordered,X domain
+959,90.21,GLY,92.225,ordered,X domain
+960,89.94,SER,90.375,ordered,X domain
+961,86.2,GLY,90.375,ordered,X domain
+962,87.0,ILE,90.375,ordered,X domain
+963,90.54,TYR,90.375,ordered,X domain
+964,88.76,GLN,90.07499999999999,ordered,X domain
+965,91.36,VAL,90.24000000000001,ordered,X domain
+966,91.62,PRO,90.67,ordered,X domain
+967,91.45,VAL,91.08,ordered,X domain
+968,89.87,SER,91.08,ordered,X domain
+969,90.8,LEU,91.405,ordered,X domain
+970,93.9,SER,91.535,ordered,X domain
+971,93.68,PHE,91.535,ordered,X domain
+972,89.95,ASP,91.375,ordered,X domain
+973,92.6,ALA,91.94999999999999,ordered,X domain
+974,94.92,TRP,92.515,ordered,X domain
+975,91.3,GLU,92.515,ordered,X domain
+976,90.58,ARG,92.20500000000001,ordered,X domain
+977,92.73,ASN,91.64,ordered,X domain
+978,92.43,HIS,92.20500000000001,ordered,X domain
+979,91.98,ARG,92.20500000000001,ordered,X domain
+980,89.75,PRO,92.20500000000001,ordered,X domain
+981,89.27,GLY,92.58000000000001,ordered,X domain
+982,95.71,ASP,92.64,ordered,X domain
+983,96.12,GLU,92.49000000000001,ordered,X domain
+984,95.59,LEU,92.265,ordered,X domain
+985,94.71,TYR,91.15,ordered,X domain
+986,92.55,LEU,90.91,ordered,X domain
+987,88.8,THR,90.675,ordered,X domain
+988,85.6,GLU,88.545,ordered,X domain
+989,84.82,PRO,88.545,ordered,X domain
+990,88.29,ALA,88.25,ordered,X domain
+991,88.21,ALA,87.13499999999999,ordered,X domain
+992,86.06,ALA,86.03,ordered,X domain
+993,90.4,TRP,85.8,ordered,X domain
+994,86.0,PHE,85.41,ordered,X domain
+995,83.13,GLU,84.565,ordered,X domain
+996,77.52,ALA,80.32499999999999,ordered,X domain
+997,68.3,ASN,72.91,ordered,X domain
+998,61.55,LYS,64.925,ordered,X domain
+999,50.46,PRO,64.925,ordered,X domain
+1000,49.0,ALA,64.925,ordered,X domain
+1001,52.37,GLN,64.925,ordered,X domain
+1002,54.14,PRO,64.925,ordered,X domain
+1003,68.65,ALA,65.1,ordered,X domain
+1004,82.67,LEU,75.66,ordered,X domain
+1005,83.55,THR,81.82,ordered,X domain
+1006,85.9,ILE,83.11,ordered,X domain
+1007,84.28,THR,83.59,ordered,X domain
+1008,83.63,GLU,83.955,ordered,X domain
+1009,80.97,ASP,84.63,ordered,X domain
+1010,84.98,THR,85.41,ordered,X domain
+1011,87.57,ALA,85.87,ordered,X domain
+1012,86.51,ARG,86.17500000000001,ordered,X domain
+1013,85.84,THR,86.93,ordered,X domain
+1014,89.13,ALA,87.41999999999999,ordered,X domain
+1015,90.76,SER,87.41999999999999,ordered,
+1016,87.35,LEU,87.41999999999999,ordered,
+1017,87.49,ALA,87.11,ordered,
+1018,89.07,LEU,87.11,ordered,
+1019,86.87,GLU,87.11,ordered,
+1020,85.35,ILE,86.24000000000001,ordered,
+1021,84.81,ASP,85.47999999999999,ordered,
+1022,85.61,ALA,85.08,ordered,
+1023,84.09,ALA,84.45,ordered,
+1024,82.05,THR,83.885,ordered,
+1025,80.58,GLU,82.995,ordered,
+1026,78.89,VAL,82.99000000000001,ordered,
+1027,81.75,GLY,82.99000000000001,ordered,
+1028,83.68,ARG,82.99000000000001,ordered,
+1029,82.31,ALA,82.99000000000001,ordered,
+1030,83.67,CYS,83.67500000000001,ordered,
+1031,84.64,ALA,84.16,ordered,
+1032,84.82,GLY,84.72999999999999,ordered,Helicase
+1033,88.97,CYS,86.895,ordered,Helicase
+1034,89.89,THR,86.895,ordered,Helicase
+1035,91.51,ILE,86.895,ordered,Helicase
+1036,90.1,SER,86.895,ordered,Helicase
+1037,89.08,PRO,86.895,ordered,Helicase
+1038,84.6,GLY,89.025,ordered,Helicase
+1039,83.34,ILE,88.89,ordered,Helicase
+1040,84.53,VAL,88.89,ordered,Helicase
+1041,82.76,HIS,88.89,ordered,Helicase
+1042,89.19,TYR,88.89,ordered,Helicase
+1043,88.7,GLN,88.945,ordered,Helicase
+1044,91.23,PHE,89.27,ordered,Helicase
+1045,91.78,THR,90.125,ordered,Helicase
+1046,90.9,ALA,90.14500000000001,ordered,Helicase
+1047,89.35,GLY,90.99000000000001,ordered,Helicase
+1048,91.56,VAL,90.99000000000001,ordered,Helicase
+1049,91.08,PRO,90.99000000000001,ordered,Helicase
+1050,89.39,GLY,90.14500000000001,ordered,Helicase
+1051,91.13,SER,89.37,ordered,Helicase
+1052,86.07,GLY,88.715,ordered,Helicase
+1053,88.08,LYS,88.235,ordered,Helicase
+1054,85.17,SER,87.07499999999999,ordered,Helicase
+1055,85.4,ARG,85.735,ordered,Helicase
+1056,83.28,SER,85.285,ordered,Helicase
+1057,88.39,ILE,85.11,ordered,Helicase
+1058,85.05,GLN,85.11,ordered,Helicase
+1059,81.41,GLN,85.11,ordered,Helicase
+1060,80.68,GLY,85.225,ordered,Helicase
+1061,81.71,ASP,86.72,ordered,Helicase
+1062,90.26,VAL,89.325,ordered,Helicase
+1063,92.31,ASP,91.22,ordered,Helicase
+1064,94.01,VAL,91.22,ordered,Helicase
+1065,94.67,VAL,91.22,ordered,Helicase
+1066,94.74,VAL,91.22,ordered,Helicase
+1067,92.18,VAL,91.22,ordered,Helicase
+1068,87.35,PRO,89.765,ordered,Helicase
+1069,82.78,THR,88.78,ordered,Helicase
+1070,83.93,ARG,88.345,ordered,Helicase
+1071,80.69,GLU,86.78,ordered,Helicase
+1072,85.1,LEU,86.78,ordered,Helicase
+1073,90.21,ARG,86.78,ordered,Helicase
+1074,89.34,ASN,87.775,ordered,Helicase
+1075,86.21,SER,88.88,ordered,Helicase
+1076,91.13,TRP,89.775,ordered,Helicase
+1077,92.33,ARG,90.275,ordered,Helicase
+1078,90.4,ARG,90.37,ordered,Helicase
+1079,88.42,ARG,90.765,ordered,Helicase
+1080,90.34,GLY,91.72999999999999,ordered,Helicase
+1081,92.63,PHE,91.72999999999999,ordered,Helicase
+1082,92.97,ALA,91.875,ordered,Helicase
+1083,93.09,ALA,91.245,ordered,Helicase
+1084,93.44,PHE,91.245,ordered,Helicase
+1085,91.07,THR,91.535,ordered,Helicase
+1086,91.42,PRO,91.535,ordered,Helicase
+1087,90.89,HIS,91.245,ordered,Helicase
+1088,89.61,THR,90.97999999999999,ordered,Helicase
+1089,91.65,ALA,90.97999999999999,ordered,Helicase
+1090,89.11,ALA,90.97999999999999,ordered,Helicase
+1091,87.3,ARG,90.87,ordered,Helicase
+1092,90.85,VAL,90.87,ordered,Helicase
+1093,91.32,THR,91.085,ordered,Helicase
+1094,91.32,ASN,91.32,ordered,Helicase
+1095,89.61,GLY,91.32,ordered,Helicase
+1096,93.34,ARG,92.03999999999999,ordered,Helicase
+1097,92.76,ARG,92.545,ordered,Helicase
+1098,94.74,VAL,92.545,ordered,Helicase
+1099,94.69,VAL,92.545,ordered,Helicase
+1100,94.39,ILE,92.545,ordered,Helicase
+1101,92.33,ASP,92.545,ordered,Helicase
+1102,90.85,GLU,91.805,ordered,Helicase
+1103,91.28,ALA,91.065,ordered,Helicase
+1104,88.73,PRO,91.065,ordered,Helicase
+1105,88.14,SER,90.86,ordered,Helicase
+1106,89.65,LEU,90.86,ordered,Helicase
+1107,89.09,PRO,90.86,ordered,Helicase
+1108,91.3,PRO,91.075,ordered,Helicase
+1109,90.87,HIS,91.08500000000001,ordered,Helicase
+1110,92.88,LEU,92.09,ordered,Helicase
+1111,93.28,LEU,92.62,ordered,Helicase
+1112,92.96,LEU,92.62,ordered,Helicase
+1113,93.99,LEU,92.62,ordered,Helicase
+1114,94.03,HIS,92.62,ordered,Helicase
+1115,92.36,MET,92.62,ordered,Helicase
+1116,90.82,GLN,91.995,ordered,Helicase
+1117,90.67,ARG,91.36,ordered,Helicase
+1118,91.63,ALA,91.36,ordered,Helicase
+1119,89.87,SER,91.36,ordered,Helicase
+1120,89.46,SER,91.36,ordered,Helicase
+1121,91.09,VAL,90.955,ordered,Helicase
+1122,92.69,HIS,90.88,ordered,Helicase
+1123,93.57,LEU,90.825,ordered,Helicase
+1124,93.2,LEU,90.45,ordered,Helicase
+1125,90.34,GLY,90.45,ordered,Helicase
+1126,90.56,ASP,90.45,ordered,Helicase
+1127,86.69,PRO,89.78999999999999,ordered,Helicase
+1128,87.37,ASN,89.12,ordered,Helicase
+1129,89.0,GLN,88.22,ordered,Helicase
+1130,89.24,ILE,87.405,ordered,Helicase
+1131,87.44,PRO,87.03,ordered,Helicase
+1132,85.4,ALA,86.045,ordered,Helicase
+1133,78.36,ILE,81.88,ordered,Helicase
+1134,74.38,ASP,76.37,ordered,Helicase
+1135,67.48,PHE,70.93,ordered,Helicase
+1136,66.56,GLU,70.93,ordered,Helicase
+1137,59.76,HIS,70.93,ordered,Helicase
+1138,65.12,ALA,70.93,ordered,Helicase
+1139,66.86,GLY,70.93,ordered,Helicase
+1140,77.2,LEU,71.99000000000001,ordered,Helicase
+1141,79.92,VAL,76.85,ordered,Helicase
+1142,78.51,PRO,77.855,ordered,Helicase
+1143,76.5,ALA,78.94,ordered,Helicase
+1144,86.52,ILE,79.64500000000001,ordered,Helicase
+1145,84.8,ARG,80.16,ordered,Helicase
+1146,81.86,PRO,81.13,ordered,Helicase
+1147,79.37,GLU,82.22,ordered,Helicase
+1148,82.58,LEU,82.995,ordered,Helicase
+1149,80.4,ALA,84.10499999999999,ordered,Helicase
+1150,84.98,PRO,84.10499999999999,ordered,Helicase
+1151,83.41,THR,84.195,ordered,Helicase
+1152,85.89,SER,85.435,ordered,Helicase
+1153,88.41,TRP,87.15,ordered,Helicase
+1154,91.61,TRP,89.515,ordered,Helicase
+1155,90.62,HIS,90.83000000000001,ordered,Helicase
+1156,91.04,VAL,91.08500000000001,ordered,Helicase
+1157,92.69,THR,91.37,ordered,Helicase
+1158,91.13,HIS,91.37,ordered,Helicase
+1159,91.83,ARG,91.37,ordered,Helicase
+1160,92.54,CYS,91.47999999999999,ordered,Helicase
+1161,92.93,PRO,91.47999999999999,ordered,Helicase
+1162,88.77,ALA,91.47999999999999,ordered,Helicase
+1163,89.24,ASP,90.53999999999999,ordered,Helicase
+1164,91.83,VAL,89.595,ordered,Helicase
+1165,89.95,CYS,89.005,ordered,Helicase
+1166,85.0,GLU,88.455,ordered,Helicase
+1167,87.1,LEU,87.62,ordered,Helicase
+1168,88.14,ILE,87.14,ordered,Helicase
+1169,85.86,ARG,86.47999999999999,ordered,Helicase
+1170,80.16,GLY,85.52000000000001,ordered,Helicase
+1171,82.0,ALA,85.52000000000001,ordered,Helicase
+1172,87.18,TYR,86.38,ordered,Helicase
+1173,82.86,PRO,86.38,ordered,Helicase
+1174,85.18,LYS,86.38,ordered,Helicase
+1175,90.23,ILE,87.04,ordered,Helicase
+1176,86.9,GLN,87.685,ordered,Helicase
+1177,90.96,THR,88.72,ordered,Helicase
+1178,90.91,THR,88.72,ordered,Helicase
+1179,89.45,SER,88.72,ordered,Helicase
+1180,88.19,ARG,89.35,ordered,Helicase
+1181,89.25,VAL,89.35,ordered,Helicase
+1182,86.0,LEU,90.18,ordered,Helicase
+1183,87.91,ARG,89.67500000000001,ordered,Helicase
+1184,92.75,SER,89.35,ordered,Helicase
+1185,92.55,LEU,88.72,ordered,Helicase
+1186,91.18,PHE,88.75,ordered,Helicase
+1187,89.9,TRP,88.655,ordered,Helicase
+1188,76.99,ASN,89.48,ordered,Helicase
+1189,88.1,GLU,90.54,ordered,Helicase
+1190,88.25,PRO,90.54,ordered,Helicase
+1191,89.06,ALA,90.54,ordered,Helicase
+1192,92.44,ILE,91.12,ordered,Helicase
+1193,92.34,GLY,92.39,ordered,Helicase
+1194,94.93,GLN,92.39,ordered,Helicase
+1195,95.12,LYS,92.39,ordered,Helicase
+1196,94.95,LEU,92.39,ordered,Helicase
+1197,93.89,VAL,92.39,ordered,Helicase
+1198,90.82,PHE,91.58,ordered,Helicase
+1199,88.74,THR,91.205,ordered,Helicase
+1200,87.12,GLN,89.84,ordered,Helicase
+1201,85.54,ALA,88.8,ordered,Helicase
+1202,87.98,ALA,88.36,ordered,Helicase
+1203,91.59,LYS,87.685,ordered,Helicase
+1204,88.86,ALA,87.685,ordered,Helicase
+1205,87.39,ALA,87.685,ordered,Helicase
+1206,86.89,ASN,88.42,ordered,Helicase
+1207,87.09,PRO,89.05,ordered,Helicase
+1208,89.24,GLY,89.85,ordered,Helicase
+1209,91.49,ALA,89.05,ordered,Helicase
+1210,91.71,ILE,88.315,ordered,Helicase
+1211,90.53,THR,88.19999999999999,ordered,Helicase
+1212,90.46,VAL,88.19999999999999,ordered,Helicase
+1213,85.48,HIS,88.19999999999999,ordered,Helicase
+1214,84.19,GLU,86.32,ordered,Helicase
+1215,87.16,ALA,86.32,ordered,Helicase
+1216,85.33,GLN,86.32,ordered,Helicase
+1217,78.86,GLY,86.32,ordered,Helicase
+1218,84.35,ALA,86.32,ordered,Helicase
+1219,87.44,THR,87.3,ordered,Helicase
+1220,91.41,PHE,89.425,ordered,Helicase
+1221,92.39,THR,91.9,ordered,Helicase
+1222,94.83,GLU,93.02000000000001,ordered,Helicase
+1223,95.42,THR,93.02000000000001,ordered,Helicase
+1224,95.6,THR,93.02000000000001,ordered,Helicase
+1225,94.38,VAL,93.02000000000001,ordered,Helicase
+1226,93.65,ILE,93.02000000000001,ordered,Helicase
+1227,90.85,ALA,92.25,ordered,Helicase
+1228,89.28,THR,90.065,ordered,Helicase
+1229,85.49,ALA,87.42,ordered,Helicase
+1230,85.56,ASP,85.525,ordered,Helicase
+1231,85.13,ALA,85.31,ordered,Helicase
+1232,84.67,ARG,84.9,ordered,Helicase
+1233,77.61,GLY,84.11500000000001,ordered,Helicase
+1234,83.5,LEU,83.53,ordered,Helicase
+1235,83.56,ILE,83.35,ordered,Helicase
+1236,76.7,GLN,83.35,ordered,Helicase
+1237,72.9,SER,83.35,ordered,Helicase
+1238,80.2,SER,83.35,ordered,Helicase
+1239,83.2,ARG,83.53,ordered,Helicase
+1240,87.99,ALA,85.775,ordered,Helicase
+1241,90.23,HIS,88.61,ordered,Helicase
+1242,89.23,ALA,89.605,ordered,Helicase
+1243,89.98,ILE,90.105,ordered,Helicase
+1244,92.04,VAL,91.06,ordered,Helicase
+1245,92.09,ALA,91.965,ordered,Helicase
+1246,91.89,LEU,92.065,ordered,Helicase
+1247,93.48,THR,92.30000000000001,ordered,Helicase
+1248,92.51,ARG,92.83500000000001,ordered,Helicase
+1249,94.55,HIS,93.28,ordered,Helicase
+1250,93.4,THR,93.44,ordered,Helicase
+1251,93.16,GLU,93.44,ordered,Helicase
+1252,93.92,LYS,93.44,ordered,Helicase
+1253,94.86,CYS,93.28,ordered,Helicase
+1254,94.43,VAL,93.28,ordered,Helicase
+1255,92.91,ILE,93.035,ordered,Helicase
+1256,92.13,LEU,92.52,ordered,Helicase
+1257,88.85,ASP,90.49,ordered,Helicase
+1258,81.33,ALA,87.725,ordered,Helicase
+1259,84.85,PRO,86.53999999999999,ordered,Helicase
+1260,83.52,GLY,85.66499999999999,ordered,Helicase
+1261,86.48,LEU,84.85,ordered,Helicase
+1262,86.6,LEU,84.185,ordered,Helicase
+1263,84.85,ARG,82.425,ordered,Helicase
+1264,81.21,GLU,83.57,ordered,Helicase
+1265,74.75,VAL,83.065,ordered,Helicase
+1266,76.91,GLY,81.91,ordered,Helicase
+1267,81.01,ILE,81.11,ordered,Helicase
+1268,83.62,SER,80.755,ordered,Helicase
+1269,82.61,ASP,79.82,ordered,Helicase
+1270,80.5,VAL,79.08500000000001,ordered,Helicase
+1271,78.37,ILE,79.08500000000001,ordered,Helicase
+1272,79.03,VAL,79.08500000000001,ordered,Helicase
+1273,79.14,ASN,78.7,ordered,Helicase
+1274,71.49,ASN,76.7,ordered,Helicase
+1275,71.88,PHE,74.355,ordered,Helicase
+1276,75.03,PHE,72.78,ordered,Helicase
+1277,73.68,LEU,71.685,ordered,
+1278,59.58,ALA,66.3,ordered,
+1279,61.11,GLY,60.345,ordered,RdRP
+1280,59.37,GLY,59.474999999999994,ordered,RdRP
+1281,54.38,GLU,56.875,ordered,RdRP
+1282,47.01,VAL,50.695,ordered,RdRP
+1283,42.82,GLY,44.915,disordered,RdRP
+1284,36.16,HIS,39.489999999999995,disordered,RdRP
+1285,35.22,HIS,35.69,disordered,RdRP
+1286,28.64,ARG,35.07,disordered,RdRP
+1287,34.92,PRO,33.3,disordered,RdRP
+1288,31.68,SER,30.740000000000002,disordered,RdRP
+1289,28.85,VAL,30.740000000000002,disordered,RdRP
+1290,28.88,ILE,29.380000000000003,disordered,RdRP
+1291,28.96,PRO,29.380000000000003,disordered,RdRP
+1292,29.8,ARG,30.740000000000002,disordered,RdRP
+1293,32.07,GLY,30.740000000000002,disordered,RdRP
+1294,28.51,ASN,30.935000000000002,disordered,RdRP
+1295,38.15,PRO,35.11,disordered,RdRP
+1296,38.76,ASP,38.455,disordered,RdRP
+1297,39.42,GLN,39.09,disordered,RdRP
+1298,46.7,ASN,43.06,disordered,RdRP
+1299,50.95,LEU,48.825,disordered,RdRP
+1300,55.86,GLY,53.405,ordered,RdRP
+1301,68.79,THR,62.325,ordered,RdRP
+1302,77.87,LEU,73.33000000000001,ordered,RdRP
+1303,78.33,GLN,78.1,ordered,RdRP
+1304,79.91,ALA,79.12,ordered,RdRP
+1305,86.15,PHE,82.36,ordered,RdRP
+1306,84.81,PRO,84.205,ordered,RdRP
+1307,87.39,PRO,84.205,ordered,RdRP
+1308,89.53,SER,84.84,ordered,RdRP
+1309,86.11,CYS,85.49000000000001,ordered,RdRP
+1310,83.6,GLN,86.13,ordered,RdRP
+1311,80.9,ILE,85.49000000000001,ordered,RdRP
+1312,84.87,SER,86.225,ordered,RdRP
+1313,87.44,ALA,86.225,ordered,RdRP
+1314,86.34,TYR,85.49000000000001,ordered,RdRP
+1315,83.63,HIS,85.19,ordered,RdRP
+1316,87.82,GLN,85.92500000000001,ordered,RdRP
+1317,87.97,LEU,85.92500000000001,ordered,RdRP
+1318,83.52,ALA,85.92500000000001,ordered,RdRP
+1319,85.51,GLU,85.465,ordered,RdRP
+1320,87.06,GLU,84.525,ordered,RdRP
+1321,85.42,LEU,84.47,ordered,RdRP
+1322,78.36,GLY,80.94,ordered,RdRP
+1323,78.21,HIS,78.285,ordered,RdRP
+1324,64.44,ARG,71.32499999999999,ordered,RdRP
+1325,58.77,PRO,61.605000000000004,ordered,RdRP
+1326,53.88,ALA,56.325,ordered,RdRP
+1327,53.52,PRO,53.7,ordered,RdRP
+1328,52.57,VAL,53.7,ordered,RdRP
+1329,48.21,ALA,53.7,ordered,RdRP
+1330,51.17,ALA,53.7,ordered,RdRP
+1331,51.52,VAL,53.7,ordered,RdRP
+1332,54.63,LEU,54.07,ordered,RdRP
+1333,54.62,PRO,54.625,ordered,RdRP
+1334,62.1,PRO,58.365,ordered,RdRP
+1335,69.7,CYS,65.9,ordered,RdRP
+1336,76.29,PRO,72.995,ordered,RdRP
+1337,81.49,GLU,78.89,ordered,RdRP
+1338,87.92,LEU,84.705,ordered,RdRP
+1339,90.98,GLU,88.33,ordered,RdRP
+1340,90.13,GLN,88.33,ordered,RdRP
+1341,88.74,GLY,88.33,ordered,RdRP
+1342,90.14,LEU,88.33,ordered,RdRP
+1343,88.99,LEU,88.33,ordered,RdRP
+1344,86.87,TYR,87.805,ordered,RdRP
+1345,81.27,MET,84.07,ordered,RdRP
+1346,68.12,PRO,74.695,ordered,RdRP
+1347,67.14,GLN,67.63,ordered,RdRP
+1348,64.0,GLU,65.57,ordered,RdRP
+1349,63.59,LEU,63.795,ordered,RdRP
+1350,52.53,THR,58.06,ordered,RdRP
+1351,49.18,VAL,52.510000000000005,ordered,RdRP
+1352,48.4,SER,52.394999999999996,ordered,RdRP
+1353,52.49,ASP,51.9,ordered,RdRP
+1354,47.57,SER,51.504999999999995,ordered,RdRP
+1355,52.3,VAL,50.34,ordered,RdRP
+1356,51.5,LEU,50.34,ordered,RdRP
+1357,48.66,VAL,51.504999999999995,ordered,RdRP
+1358,51.51,PHE,51.905,ordered,RdRP
+1359,49.15,GLU,51.905,ordered,RdRP
+1360,52.71,LEU,52.504999999999995,ordered,RdRP
+1361,55.63,THR,54.17,ordered,RdRP
+1362,58.99,ASP,57.31,ordered,RdRP
+1363,63.92,ILE,61.445,ordered,RdRP
+1364,64.49,VAL,61.445,ordered,RdRP
+1365,70.27,HIS,61.445,ordered,RdRP
+1366,63.9,CYS,61.445,ordered,RdRP
+1367,65.48,ARG,61.445,ordered,RdRP
+1368,57.01,MET,60.855000000000004,ordered,RdRP
+1369,57.81,ALA,60.855000000000004,ordered,RdRP
+1370,57.34,ALA,60.855000000000004,ordered,RdRP
+1371,54.92,PRO,60.855000000000004,ordered,RdRP
+1372,56.06,SER,61.645,ordered,RdRP
+1373,66.55,GLN,62.18,ordered,RdRP
+1374,75.62,ARG,69.83500000000001,ordered,RdRP
+1375,73.76,LYS,73.44,ordered,RdRP
+1376,73.12,ALA,74.69,ordered,RdRP
+1377,78.61,VAL,77.11500000000001,ordered,RdRP
+1378,83.13,LEU,79.925,ordered,RdRP
+1379,81.24,SER,82.12,ordered,RdRP
+1380,83.0,THR,83.065,ordered,RdRP
+1381,86.57,LEU,83.995,ordered,RdRP
+1382,88.1,VAL,85.44,ordered,RdRP
+1383,84.86,GLY,86.29499999999999,ordered,RdRP
+1384,86.02,ARG,87.335,ordered,RdRP
+1385,89.01,TYR,88.13499999999999,ordered,RdRP
+1386,89.01,GLY,88.59,ordered,RdRP
+1387,88.17,ARG,89.01,ordered,RdRP
+1388,90.0,ARG,89.235,ordered,RdRP
+1389,89.46,THR,89.235,ordered,RdRP
+1390,90.21,LYS,89.235,ordered,RdRP
+1391,90.64,LEU,89.235,ordered,RdRP
+1392,90.86,TYR,89.72999999999999,ordered,RdRP
+1393,86.73,GLU,89.83500000000001,ordered,RdRP
+1394,86.68,ALA,89.565,ordered,RdRP
+1395,87.34,ALA,89.94,ordered,RdRP
+1396,92.06,HIS,90.155,ordered,RdRP
+1397,89.67,SER,90.265,ordered,RdRP
+1398,87.67,ASP,90.56,ordered,RdRP
+1399,92.33,VAL,91.61,ordered,RdRP
+1400,93.57,ARG,91.61,ordered,RdRP
+1401,91.45,GLU,91.61,ordered,RdRP
+1402,91.77,SER,91.375,ordered,RdRP
+1403,93.01,LEU,91.61,ordered,RdRP
+1404,91.3,ALA,91.61,ordered,RdRP
+1405,86.79,ARG,91.375,ordered,RdRP
+1406,89.52,PHE,90.41,ordered,RdRP
+1407,91.88,ILE,89.11,ordered,RdRP
+1408,88.7,PRO,89.11,ordered,RdRP
+1409,86.78,THR,89.11,ordered,RdRP
+1410,85.57,ILE,87.745,ordered,RdRP
+1411,83.69,GLY,88.28999999999999,ordered,RdRP
+1412,89.91,PRO,87.38499999999999,ordered,RdRP
+1413,90.93,VAL,86.83500000000001,ordered,RdRP
+1414,86.01,GLN,86.39500000000001,ordered,RdRP
+1415,87.88,ALA,86.45,ordered,RdRP
+1416,86.89,THR,86.45,ordered,RdRP
+1417,82.25,THR,86.45,ordered,RdRP
+1418,82.35,CYS,85.345,ordered,RdRP
+1419,89.52,GLU,84.62,ordered,RdRP
+1420,84.68,LEU,84.095,ordered,RdRP
+1421,82.92,TYR,83.275,ordered,RdRP
+1422,84.56,GLU,82.63499999999999,ordered,RdRP
+1423,83.63,LEU,82.63499999999999,ordered,RdRP
+1424,81.0,VAL,81.98,ordered,RdRP
+1425,81.04,GLU,81.02000000000001,ordered,RdRP
+1426,79.96,ALA,80.47999999999999,ordered,RdRP
+1427,78.68,MET,79.32,ordered,RdRP
+1428,74.33,VAL,77.27000000000001,ordered,RdRP
+1429,71.34,GLU,75.22,ordered,RdRP
+1430,70.55,LYS,74.455,ordered,RdRP
+1431,69.71,GLY,74.455,ordered,RdRP
+1432,75.86,GLN,74.455,ordered,RdRP
+1433,74.58,ASP,74.455,ordered,RdRP
+1434,73.4,GLY,75.22,ordered,RdRP
+1435,79.31,SER,77.58500000000001,ordered,RdRP
+1436,79.33,ALA,79.32,ordered,RdRP
+1437,84.94,VAL,81.71000000000001,ordered,RdRP
+1438,84.12,LEU,82.92500000000001,ordered,RdRP
+1439,84.09,GLU,82.92500000000001,ordered,RdRP
+1440,85.49,LEU,83.935,ordered,RdRP
+1441,84.62,ASP,83.935,ordered,RdRP
+1442,81.76,LEU,83.935,ordered,RdRP
+1443,81.3,CYS,83.935,ordered,RdRP
+1444,83.78,ASN,82.91499999999999,ordered,RdRP
+1445,80.9,ARG,82.695,ordered,RdRP
+1446,78.91,ASP,82.695,ordered,RdRP
+1447,84.3,VAL,82.695,ordered,RdRP
+1448,82.05,SER,83.56,ordered,RdRP
+1449,83.34,ARG,83.66,ordered,RdRP
+1450,91.73,ILE,83.44,ordered,RdRP
+1451,90.49,THR,83.44,ordered,RdRP
+1452,89.83,PHE,83.44,ordered,RdRP
+1453,83.54,PHE,82.695,ordered,RdRP
+1454,76.8,GLN,80.07,ordered,RdRP
+1455,73.5,LYS,75.15,ordered,RdRP
+1456,63.55,ASP,74.64,ordered,RdRP
+1457,58.19,CYS,74.64,ordered,RdRP
+1458,62.45,ASN,74.64,ordered,RdRP
+1459,69.08,LYS,74.64,ordered,RdRP
+1460,75.78,PHE,71.28999999999999,ordered,RdRP
+1461,76.37,THR,69.03,ordered,RdRP
+1462,81.02,THR,69.03,ordered,RdRP
+1463,76.21,GLY,69.03,ordered,RdRP
+1464,68.98,GLU,69.03,ordered,RdRP
+1465,65.17,THR,67.075,ordered,RdRP
+1466,60.48,ILE,65.80000000000001,ordered,RdRP
+1467,58.27,ALA,65.80000000000001,ordered,RdRP
+1468,53.43,HIS,65.80000000000001,ordered,RdRP
+1469,54.89,GLY,65.80000000000001,ordered,RdRP
+1470,66.43,LYS,65.80000000000001,ordered,RdRP
+1471,72.84,VAL,69.2,ordered,RdRP
+1472,71.97,GLY,72.405,ordered,RdRP
+1473,76.52,GLN,74.68,ordered,RdRP
+1474,79.69,GLY,78.10499999999999,ordered,RdRP
+1475,86.36,ILE,83.025,ordered,RdRP
+1476,90.43,SER,87.425,ordered,RdRP
+1477,89.54,ALA,89.015,ordered,RdRP
+1478,92.34,TRP,89.9,ordered,RdRP
+1479,90.26,SER,90.25,ordered,RdRP
+1480,88.49,LYS,90.25,ordered,RdRP
+1481,90.41,THR,90.33500000000001,ordered,RdRP
+1482,91.35,PHE,90.33500000000001,ordered,RdRP
+1483,90.24,CYS,90.69,ordered,RdRP
+1484,88.54,ALA,90.69,ordered,RdRP
+1485,90.97,LEU,91.16,ordered,RdRP
+1486,94.13,PHE,91.85,ordered,RdRP
+1487,92.35,GLY,92.03999999999999,ordered,RdRP
+1488,92.91,PRO,92.63,ordered,RdRP
+1489,95.2,TRP,93.13,ordered,RdRP
+1490,94.84,PHE,93.13,ordered,RdRP
+1491,91.73,ARG,93.13,ordered,RdRP
+1492,93.35,ALA,92.83500000000001,ordered,RdRP
+1493,94.11,ILE,92.83500000000001,ordered,RdRP
+1494,92.76,GLU,92.45,ordered,RdRP
+1495,90.86,LYS,92.03999999999999,ordered,RdRP
+1496,92.14,GLU,91.83500000000001,ordered,RdRP
+1497,91.94,ILE,91.4,ordered,RdRP
+1498,90.67,LEU,90.765,ordered,RdRP
+1499,89.26,ALA,90.345,ordered,RdRP
+1500,90.02,LEU,89.995,ordered,RdRP
+1501,89.38,LEU,89.995,ordered,RdRP
+1502,88.44,PRO,89.995,ordered,RdRP
+1503,86.39,PRO,89.995,ordered,RdRP
+1504,89.97,ASN,89.675,ordered,RdRP
+1505,92.83,VAL,89.675,ordered,RdRP
+1506,92.4,PHE,88.91,ordered,RdRP
+1507,90.43,TYR,87.41499999999999,ordered,RdRP
+1508,81.4,GLY,85.87,ordered,RdRP
+1509,76.5,ASP,84.465,ordered,RdRP
+1510,83.58,ALA,83.935,ordered,RdRP
+1511,85.35,TYR,83.935,ordered,RdRP
+1512,82.95,GLU,83.935,ordered,RdRP
+1513,80.97,GLU,83.935,ordered,RdRP
+1514,84.29,SER,84.82,ordered,RdRP
+1515,88.47,VAL,86.91,ordered,RdRP
+1516,89.64,LEU,88.58,ordered,RdRP
+1517,88.69,ALA,88.92,ordered,RdRP
+1518,89.15,ALA,89.39500000000001,ordered,RdRP
+1519,91.4,ALA,89.97999999999999,ordered,RdRP
+1520,92.45,VAL,89.97999999999999,ordered,RdRP
+1521,91.1,SER,89.97999999999999,ordered,RdRP
+1522,90.32,GLY,90.44999999999999,ordered,RdRP
+1523,90.58,ALA,90.84,ordered,RdRP
+1524,84.99,GLY,91.25,ordered,RdRP
+1525,84.45,SER,91.72,ordered,RdRP
+1526,92.34,CYS,91.72,ordered,RdRP
+1527,93.16,MET,91.805,ordered,RdRP
+1528,94.52,VAL,91.805,ordered,RdRP
+1529,95.87,PHE,91.805,ordered,RdRP
+1530,92.56,GLU,91.805,ordered,RdRP
+1531,91.27,ASN,91.805,ordered,RdRP
+1532,85.65,ASP,90.29499999999999,ordered,RdRP
+1533,89.28,PHE,89.3,ordered,RdRP
+1534,83.51,SER,88.675,ordered,RdRP
+1535,80.49,GLU,88.16499999999999,ordered,RdRP
+1536,89.32,PHE,88.16499999999999,ordered,RdRP
+1537,88.07,ASP,88.16499999999999,ordered,RdRP
+1538,85.48,SER,88.77000000000001,ordered,RdRP
+1539,88.26,THR,88.78999999999999,ordered,RdRP
+1540,91.65,GLN,90.485,ordered,RdRP
+1541,92.65,ASN,92.15,ordered,RdRP
+1542,93.58,ASN,93.11500000000001,ordered,RdRP
+1543,94.3,PHE,93.735,ordered,RdRP
+1544,93.89,SER,94.06,ordered,RdRP
+1545,94.56,LEU,94.245,ordered,RdRP
+1546,94.23,GLY,94.245,ordered,RdRP
+1547,94.26,LEU,94.245,ordered,RdRP
+1548,94.9,GLU,94.28,ordered,RdRP
+1549,95.41,CYS,94.245,ordered,RdRP
+1550,93.38,VAL,94.245,ordered,RdRP
+1551,93.61,VAL,94.18,ordered,RdRP
+1552,95.51,MET,93.94999999999999,ordered,RdRP
+1553,93.77,GLU,93.94999999999999,ordered,RdRP
+1554,92.12,GLU,93.69,ordered,RdRP
+1555,94.13,CYS,93.69,ordered,RdRP
+1556,92.48,GLY,93.94999999999999,ordered,RdRP
+1557,94.58,MET,94.035,ordered,RdRP
+1558,93.57,PRO,94.035,ordered,RdRP
+1559,94.5,GLN,94.315,ordered,RdRP
+1560,94.59,TRP,94.315,ordered,RdRP
+1561,93.94,LEU,94.485,ordered,RdRP
+1562,96.14,ILE,94.53999999999999,ordered,RdRP
+1563,94.58,ARG,94.485,ordered,RdRP
+1564,93.47,LEU,94.485,ordered,RdRP
+1565,94.47,TYR,94.205,ordered,RdRP
+1566,94.62,HIS,93.705,ordered,RdRP
+1567,91.6,LEU,93.045,ordered,RdRP
+1568,90.49,VAL,92.59,ordered,RdRP
+1569,92.56,ARG,92.255,ordered,RdRP
+1570,92.62,SER,92.24000000000001,ordered,RdRP
+1571,90.51,ALA,91.775,ordered,RdRP
+1572,91.95,TRP,91.125,ordered,RdRP
+1573,90.65,ILE,90.58000000000001,ordered,RdRP
+1574,92.53,LEU,90.58000000000001,ordered,RdRP
+1575,89.78,GLN,90.14500000000001,ordered,RdRP
+1576,86.09,ALA,89.605,ordered,RdRP
+1577,78.75,PRO,89.605,ordered,RdRP
+1578,80.45,LYS,89.605,ordered,RdRP
+1579,84.91,GLU,89.605,ordered,RdRP
+1580,89.43,SER,89.605,ordered,RdRP
+1581,91.9,LEU,90.01,ordered,RdRP
+1582,91.91,LYS,90.56,ordered,RdRP
+1583,90.59,GLY,90.685,ordered,RdRP
+1584,91.98,PHE,91.045,ordered,RdRP
+1585,90.78,TRP,91.045,ordered,RdRP
+1586,90.53,LYS,91.045,ordered,RdRP
+1587,92.09,LYS,90.93,ordered,RdRP
+1588,91.31,HIS,90.685,ordered,RdRP
+1589,86.64,SER,90.655,ordered,RdRP
+1590,84.01,GLY,90.655,ordered,RdRP
+1591,91.08,GLU,90.605,ordered,RdRP
+1592,89.28,PRO,90.88,ordered,RdRP
+1593,89.37,GLY,90.88,ordered,RdRP
+1594,91.38,THR,90.88,ordered,RdRP
+1595,90.68,LEU,91.22999999999999,ordered,RdRP
+1596,93.26,LEU,92.32,ordered,RdRP
+1597,94.61,TRP,93.39500000000001,ordered,RdRP
+1598,93.53,ASN,93.735,ordered,RdRP
+1599,93.94,THR,94.11500000000001,ordered,RdRP
+1600,94.29,VAL,94.13,ordered,RdRP
+1601,94.97,TRP,94.265,ordered,RdRP
+1602,94.36,ASN,94.325,ordered,RdRP
+1603,94.77,MET,94.265,ordered,RdRP
+1604,93.97,ALA,94.265,ordered,RdRP
+1605,94.24,ILE,94.265,ordered,RdRP
+1606,94.41,ILE,94.10499999999999,ordered,RdRP
+1607,92.78,ALA,93.96000000000001,ordered,RdRP
+1608,93.02,HIS,93.735,ordered,RdRP
+1609,93.44,CYS,93.47999999999999,ordered,RdRP
+1610,93.95,TYR,93.22999999999999,ordered,RdRP
+1611,92.41,GLU,92.97999999999999,ordered,RdRP
+1612,93.52,PHE,92.86500000000001,ordered,RdRP
+1613,92.94,ARG,92.97999999999999,ordered,RdRP
+1614,91.13,ASP,93.19,ordered,RdRP
+1615,91.74,PHE,93.22999999999999,ordered,RdRP
+1616,92.79,ARG,93.22999999999999,ordered,RdRP
+1617,94.15,VAL,93.22999999999999,ordered,RdRP
+1618,94.29,ALA,92.86500000000001,ordered,RdRP
+1619,93.63,ALA,92.48,ordered,RdRP
+1620,94.53,PHE,92.48,ordered,RdRP
+1621,92.17,LYS,93.195,ordered,RdRP
+1622,90.47,GLY,93.615,ordered,RdRP
+1623,89.24,ASP,93.615,ordered,RdRP
+1624,89.93,ASP,93.615,ordered,RdRP
+1625,93.6,SER,94.065,ordered,RdRP
+1626,94.55,VAL,93.525,ordered,RdRP
+1627,95.09,VAL,93.525,ordered,RdRP
+1628,95.92,LEU,93.62,ordered,RdRP
+1629,95.01,CYS,93.62,ordered,RdRP
+1630,93.45,SER,93.62,ordered,RdRP
+1631,92.56,ASP,93.545,ordered,RdRP
+1632,93.64,TYR,93.35,ordered,RdRP
+1633,93.25,ARG,92.905,ordered,RdRP
+1634,91.98,GLN,92.27000000000001,ordered,RdRP
+1635,91.07,SER,91.525,ordered,RdRP
+1636,87.05,ARG,90.555,ordered,RdRP
+1637,84.28,ASN,90.555,ordered,RdRP
+1638,88.41,ALA,90.555,ordered,RdRP
+1639,88.85,ALA,89.86000000000001,ordered,RdRP
+1640,90.04,ALA,89.265,ordered,RdRP
+1641,91.09,LEU,89.265,ordered,RdRP
+1642,91.37,ILE,89.265,ordered,RdRP
+1643,89.68,ALA,89.61500000000001,ordered,RdRP
+1644,88.09,GLY,89.61500000000001,ordered,RdRP
+1645,89.98,CYS,89.61500000000001,ordered,RdRP
+1646,88.73,GLY,89.14,ordered,RdRP
+1647,89.55,LEU,89.14,ordered,RdRP
+1648,86.81,LYS,89.14,ordered,RdRP
+1649,88.42,LEU,89.14,ordered,RdRP
+1650,87.27,LYS,89.765,ordered,RdRP
+1651,90.0,VAL,89.775,ordered,RdRP
+1652,90.06,ASP,90.03,ordered,RdRP
+1653,93.96,TYR,90.065,ordered,RdRP
+1654,91.54,ARG,90.065,ordered,RdRP
+1655,90.75,PRO,90.12,ordered,RdRP
+1656,91.78,ILE,90.12,ordered,RdRP
+1657,90.07,GLY,90.12,ordered,RdRP
+1658,90.04,LEU,90.12,ordered,RdRP
+1659,90.17,TYR,90.12,ordered,RdRP
+1660,83.75,ALA,90.12,ordered,RdRP
+1661,81.22,GLY,90.12,ordered,RdRP
+1662,88.7,VAL,90.12,ordered,RdRP
+1663,91.96,VAL,90.105,ordered,RdRP
+1664,92.94,VAL,89.465,ordered,RdRP
+1665,91.9,ALA,89.67500000000001,ordered,RdRP
+1666,91.79,PRO,90.92500000000001,ordered,RdRP
+1667,88.76,GLY,91.185,ordered,RdRP
+1668,88.54,LEU,91.185,ordered,RdRP
+1669,90.59,GLY,91.185,ordered,RdRP
+1670,91.26,THR,91.185,ordered,RdRP
+1671,91.11,LEU,91.185,ordered,RdRP
+1672,90.31,PRO,90.85,ordered,RdRP
+1673,91.54,ASP,90.85,ordered,RdRP
+1674,92.49,VAL,90.85,ordered,RdRP
+1675,91.49,VAL,90.71000000000001,ordered,RdRP
+1676,88.72,ARG,89.845,ordered,RdRP
+1677,89.38,PHE,89.05,ordered,RdRP
+1678,88.01,ALA,88.36500000000001,ordered,RdRP
+1679,82.82,GLY,85.41499999999999,ordered,RdRP
+1680,80.17,ARG,81.495,ordered,RdRP
+1681,80.15,LEU,80.16,ordered,RdRP
+1682,71.31,SER,75.73,ordered,RdRP
+1683,63.41,GLU,68.61500000000001,ordered,RdRP
+1684,65.07,LYS,65.495,ordered,RdRP
+1685,60.07,ASN,64.25,ordered,RdRP
+1686,65.92,TRP,64.25,ordered,RdRP
+1687,55.98,GLY,64.25,ordered,RdRP
+1688,58.02,PRO,64.25,ordered,RdRP
+1689,63.43,GLY,65.495,ordered,RdRP
+1690,72.77,PRO,68.0,ordered,RdRP
+1691,72.91,GLU,71.425,ordered,RdRP
+1692,70.08,ARG,72.84,ordered,RdRP
+1693,73.57,ALA,73.24,ordered,RdRP
+1694,80.55,GLU,76.68,ordered,RdRP
+1695,79.79,GLN,80.17,ordered,RdRP
+1696,83.54,LEU,82.045,ordered,RdRP
+1697,87.46,ARG,84.265,ordered,RdRP
+1698,85.0,LEU,84.995,ordered,RdRP
+1699,84.99,ALA,85.22999999999999,ordered,RdRP
+1700,90.26,VAL,86.46,ordered,RdRP
+1701,89.24,CYS,86.555,ordered,RdRP
+1702,85.46,ASP,86.555,ordered,RdRP
+1703,90.15,PHE,86.4,ordered,RdRP
+1704,89.88,LEU,86.4,ordered,RdRP
+1705,85.65,ARG,86.4,ordered,RdRP
+1706,82.77,GLY,86.03,ordered,RdRP
+1707,87.15,LEU,86.03,ordered,RdRP
+1708,79.24,THR,86.78,ordered,RdRP
+1709,80.14,ASN,86.78,ordered,RdRP
+1710,86.41,VAL,86.78,ordered,RdRP
+1711,87.43,ALA,87.235,ordered,RdRP
+1712,87.32,GLN,87.375,ordered,RdRP
+1713,88.74,VAL,88.08500000000001,ordered,RdRP
+1714,90.42,CYS,89.38,ordered,RdRP
+1715,91.33,VAL,90.22,ordered,RdRP
+1716,90.02,ASP,90.22,ordered,RdRP
+1717,91.61,VAL,90.22,ordered,RdRP
+1718,91.86,VAL,90.22,ordered,RdRP
+1719,92.3,SER,90.22,ordered,RdRP
+1720,89.9,ARG,90.4,ordered,RdRP
+1721,89.28,VAL,90.4,ordered,RdRP
+1722,88.41,TYR,91.195,ordered,RdRP
+1723,88.51,GLY,90.88499999999999,ordered,RdRP
+1724,90.78,VAL,90.88499999999999,ordered,RdRP
+1725,92.48,SER,90.88499999999999,ordered,RdRP
+1726,91.98,PRO,91.485,ordered,RdRP
+1727,90.99,GLY,92.105,ordered,RdRP
+1728,92.64,LEU,92.345,ordered,RdRP
+1729,92.91,VAL,92.47,ordered,RdRP
+1730,92.46,HIS,92.47,ordered,RdRP
+1731,92.23,ASN,92.345,ordered,RdRP
+1732,93.62,LEU,92.55,ordered,RdRP
+1733,93.67,ILE,92.55,ordered,RdRP
+1734,91.7,GLY,92.345,ordered,RdRP
+1735,92.12,MET,92.17500000000001,ordered,RdRP
+1736,92.8,LEU,91.91,ordered,RdRP
+1737,91.0,GLN,91.35,ordered,RdRP
+1738,90.25,THR,90.625,ordered,RdRP
+1739,89.47,ILE,89.86,ordered,RdRP
+1740,89.14,ALA,89.305,ordered,RdRP
+1741,87.23,ASP,88.185,ordered,RdRP
+1742,83.7,GLY,85.465,ordered,RdRP
+1743,83.26,LYS,83.48,ordered,RdRP
+1744,75.84,ALA,79.55000000000001,ordered,RdRP
+1745,69.59,HIS,72.715,ordered,RdRP
+1746,68.34,PHE,68.965,ordered,RdRP
+1747,57.67,THR,63.005,ordered,RdRP
+1748,51.63,GLU,54.650000000000006,ordered,RdRP
+1749,50.72,THR,51.175,ordered,RdRP
+1750,49.83,ILE,50.275,ordered,RdRP
+1751,45.86,LYS,48.07,disordered,RdRP
+1752,44.26,PRO,46.085,disordered,RdRP
+1753,46.31,VAL,45.06,disordered,RdRP
+1754,43.71,LEU,43.985,disordered,RdRP
+1755,41.48,ASP,42.595,disordered,RdRP
+1756,40.85,LEU,41.635,disordered,RdRP
+1757,37.38,THR,41.165,disordered,RdRP
+1758,36.52,ASN,41.165,disordered,RdRP
+1759,40.55,SER,41.165,disordered,RdRP
+1760,41.79,ILE,41.165,disordered,RdRP
+1761,40.7,ILE,40.85,disordered,RdRP
+1762,41.86,GLN,40.85,disordered,RdRP
+1763,45.31,ARG,40.85,disordered,RdRP
+1764,44.18,VAL,40.85,disordered,RdRP
+1765,30.83,GLU,40.85,disordered,RdRP
