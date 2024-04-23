@@ -8,7 +8,7 @@ A [conda](https://docs.conda.io/projects/conda/en/latest/index.html) YAML enviro
 The conda environment is created using the command:
 ```shell script
 # create the environment
-conda conda_env create -f conda_env/idr_env.yml
+conda env create -f conda_env/idr_env.yml
 
 # activate the environment
 conda activate idr

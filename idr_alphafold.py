@@ -21,7 +21,7 @@ import seaborn as sns
 __author__ = "Nicolas JEANNE"
 __copyright__ = "GNU General Public License"
 __email__ = "jeanne.n@chu-toulouse.fr"
-__version__ = "1.1.0"
+__version__ = "1.1.22"
 
 
 def create_log(path, level):
